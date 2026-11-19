@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#060911" name="theme-color"/>
+<meta content="Camisetas retro de fútbol en FutNexo: modelos históricos de clubes y selecciones de los 80, 90, 2000 y 2010. Consulta disponibilidad en Instagram." name="description"/>
+<meta content="3.33" name="futnexo-version"/>
+<title>Retro | FutNexo</title>
+<link href="styles.css?v=371" rel="stylesheet"/>
+<link href="favicon.svg?v=310" rel="icon" type="image/svg+xml"/>
+<style id="clubes-css-integrado">
+/* FutNexo V3.2: página interna de Clubes 26/27 */
+.nav a[aria-current=page],.mobile-nav a[aria-current=page]{color:#77b5ff}
+.club-hero-wrap{overflow:hidden;border-top:1px solid #14233a;background:radial-gradient(ellipse at 82% 45%,rgba(42,113,211,.27),transparent 49%),linear-gradient(115deg,#0b1425,#060b15 73%)}
+.club-hero{display:grid;grid-template-columns:1.03fr .97fr;min-height:495px;gap:24px;align-items:center;padding-top:25px;padding-bottom:35px}
+.breadcrumbs{display:flex;gap:10px;font-size:11px;color:#8a9fba;margin:10px 0 48px;align-items:center}.breadcrumbs a:hover{color:white}
+.club-kicker{color:#83b7ff;font-size:11px;font-weight:900;letter-spacing:.18em}
+.club-hero-copy h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(60px,7vw,103px);letter-spacing:.006em;line-height:.88;font-weight:900;margin:20px 0 22px}.club-hero-copy h1 span{color:#58a2ff}
+.club-hero-copy>p{color:#b5c6dc;line-height:1.8;font-size:14px;max-width:490px}
+.club-hero-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:27px}.club-hero-buttons .btn{padding:15px 19px}
+.club-hero-facts{margin-top:34px;color:#a6bbd3;display:flex;gap:16px;align-items:center;font-size:12px}.club-hero-facts strong{color:#fff}.club-hero-facts i{display:block;width:1px;height:19px;background:#36506e}
+.club-hero-art{height:415px;position:relative;display:flex;justify-content:center;align-items:center}
+.club-halo{position:absolute;width:380px;height:360px;max-width:95%;background:radial-gradient(circle,#3677e75b,transparent 69%);filter:blur(19px)}
+.club-hero-jersey{position:absolute;width:46%;max-width:235px;padding:10px;background:linear-gradient(150deg,#263b57,#101a2a);border:1px solid #4c719b;border-radius:17px;box-shadow:0 20px 60px #0009;overflow:hidden}
+.club-hero-jersey img{width:100%;aspect-ratio:.88;object-fit:contain;border-radius:10px;background:#fafcff}
+.club-hero-jersey.jersey-left{transform:rotate(-13deg) translate(-104px,25px);z-index:1;opacity:.89}
+.club-hero-jersey.jersey-right{transform:rotate(13deg) translate(106px,25px);z-index:2;opacity:.91}
+.club-hero-jersey.jersey-main{transform:translateY(-5px);z-index:3;border-color:#76b7ff;box-shadow:0 0 65px #2476dc69,0 25px 65px #000c}
+.club-art-caption{position:absolute;bottom:7px;z-index:4;padding:11px 14px;border:1px solid #3f628c;border-radius:99px;background:#111e32d9;color:#d7eaff;font-size:10px;letter-spacing:.15em;font-weight:900}
+.club-benefits{border-block:1px solid #1b2d47;background:#0b1628}.club-benefits-inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding-block:21px;color:#acc8eb;font-size:11px;font-weight:700}
+.club-shop{padding-top:83px;padding-bottom:90px}.club-section-head{display:flex;justify-content:space-between;gap:12px;align-items:end}.club-section-head h2{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(43px,5vw,68px);letter-spacing:.01em;line-height:1;margin:10px 0}.club-section-head p{color:#9dadc5;font-size:13px;line-height:1.6}.club-back{color:#9ec5ff;font-size:12px;font-weight:800;padding-bottom:13px;white-space:nowrap}
+.club-tools{margin-top:30px;display:flex;justify-content:space-between;gap:16px;align-items:center}.club-filters{display:flex;gap:8px;flex-wrap:wrap}.club-filter{background:#111c2a;border:1px solid #2a405b;color:#b2c4d9;font-size:12px;font-weight:800;padding:12px 19px;border-radius:9px;transition:background .2s}.club-filter:hover,.club-filter.active{background:#2b80ed;color:white;border-color:#4a99ff}
+.club-search{display:flex;gap:8px;align-items:center;border:1px solid #2c425f;border-radius:9px;background:#111e2e;padding:0 13px;min-width:225px}.club-search span{font-size:23px;color:#82b8ff}.club-search input{background:none;border:none;color:white;padding:12px 0;outline:0;width:100%;font-size:12px}.club-search input::placeholder{color:#8195b0}
+.club-count{color:#92b7e6;font-size:11px;font-weight:700;margin:16px 0 23px}
+.club-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.club-card{min-width:0;background:linear-gradient(150deg,#152337,#101824);border:1px solid #2b405d;border-radius:15px;overflow:hidden;transition:border-color .2s,transform .2s}.club-card:hover{border-color:#4996f5;transform:translateY(-4px)}
+.club-photo{position:relative;aspect-ratio:1/.96;padding:16px 23px;background:radial-gradient(circle at 50% 35%,#284669,#111d2c 72%);display:flex;align-items:center;justify-content:center}.club-photo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 10px #0005)}.club-photo-tag{position:absolute;left:12px;top:12px;border-radius:30px;padding:6px 10px;background:#0a1b30ec;border:1px solid #3b6899;color:#c6ddff;font-size:9px;font-weight:800;letter-spacing:.06em}
+.club-card-body{padding:17px}.club-card-body h3{font-family:'Barlow Condensed',sans-serif;font-size:23px;line-height:1.04;min-height:48px;font-weight:800;margin:0 0 7px}.club-card-body p{font-size:11px;color:#9fb2cc;margin:0 0 16px}.club-bottom{border-top:1px solid #304057;padding-top:13px;display:flex;align-items:center;gap:10px;justify-content:space-between}.club-bottom strong{font-size:11px;color:#c9dfff;white-space:nowrap}.club-bottom a{font-size:11px;font-weight:900;background:#2679e4;color:#fff;padding:10px 12px;border-radius:8px;text-align:center}.club-bottom a:hover{background:#4a98ff}
+.club-disclaimer{font-size:11px;color:#8f9fb7;line-height:1.7;margin:24px 0 0}.club-none{grid-column:1/-1;text-align:center;color:#abc2e0;border:1px dashed #3b5373;border-radius:12px;padding:48px 12px}
+.club-request{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-bottom:85px;padding-top:32px;padding-bottom:32px;background:linear-gradient(130deg,#143258,#0d1c32);border:1px solid #346397;border-radius:18px}.club-request h2{font-family:'Barlow Condensed',sans-serif;font-size:40px;font-weight:800;line-height:1;margin:11px 0}.club-request p{color:#b4c9e4;font-size:12px;line-height:1.65;max-width:540px;margin:0}.club-request .btn{white-space:nowrap}
+@media(max-width:1020px){.club-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.club-hero-copy h1{font-size:76px}}
+@media(max-width:760px){.club-hero{grid-template-columns:1fr;padding-top:20px;gap:4px}.breadcrumbs{margin-bottom:34px}.club-hero-copy h1{font-size:clamp(56px,11vw,76px)}.club-hero-art{height:290px}.club-hero-jersey{max-width:167px}.club-hero-jersey.jersey-left{transform:rotate(-12deg) translate(-77px,14px)}.club-hero-jersey.jersey-right{transform:rotate(12deg) translate(77px,14px)}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-section-head{align-items:start;flex-direction:column}.club-tools{align-items:stretch;flex-direction:column}.club-search{width:100%}.club-request{flex-direction:column;align-items:start}.club-benefits-inner{justify-content:center}.club-art-caption{bottom:0}}
+@media(max-width:480px){.club-hero-copy h1{font-size:59px}.club-hero-copy>p{font-size:13px}.club-hero-facts{flex-wrap:wrap}.club-hero-art{height:240px}.club-hero-jersey{max-width:132px;padding:6px}.club-hero-jersey.jersey-left{transform:rotate(-12deg) translate(-58px,15px)}.club-hero-jersey.jersey-right{transform:rotate(12deg) translate(58px,15px)}.club-shop{padding-top:58px}.club-grid{gap:10px}.club-photo{padding:13px 8px;aspect-ratio:1/1.06}.club-card-body{padding:12px}.club-card-body h3{font-size:20px;min-height:42px}.club-bottom{flex-direction:column;align-items:stretch}.club-bottom a{width:100%}.club-request h2{font-size:33px}.club-filter{font-size:11px;padding:10px 12px}}
+@media(prefers-reduced-motion:reduce){.club-card:hover{transform:none}}
+
+
+/* V3.3: más filtros, tarjetas robustas, todas las fotos integradas en HTML */
+.club-filters{max-width:100%;gap:7px}
+.club-filter{padding:11px 13px}
+.club-photo{background:linear-gradient(150deg,#172942,#0f192b)}
+.club-photo img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}
+.club-photo-tag{z-index:1}
+.club-photo-tag.illustrated{color:#d8e4f8;background:#14233bec;border-color:#476080}
+.club-photo-tag.real-photo{color:#e7f2ff;background:#143355ec;border-color:#5388ba}
+.club-card-body h3{min-height:48px}
+.club-shop .club-guide{font-size:12px;line-height:1.75;color:#b6c6db;margin:12px 0 10px}
+.club-count strong{font-weight:900;color:#b5d6ff}
+@media(max-width:760px){.club-filters{display:flex;flex-wrap:nowrap;max-width:100%;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}.club-filter{flex-shrink:0}}
+
+.club-card[hidden], .club-none[hidden]{display:none!important;}
+
+.club-card-body h3{min-height:48px}.club-filter{white-space:nowrap}.club-filters{scrollbar-width:thin}
+
+/* FutNexo V3.10: fotos locales correctamente asignadas */
+.club-photo img.uploaded-kit-photo{background:#f7f8fa;border-radius:10px;padding:8px;filter:none;object-fit:contain}
+</style>
+<style id="futnexo-fn-logo-v39">
+.site-header .brand-fn-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 34px;width:34px;height:34px;border:1px solid #2f486c;border-radius:9px;background:#0b1425;color:white;font-family:Arial,sans-serif;font-size:17px;line-height:1;font-weight:900;letter-spacing:-1.5px;box-shadow:0 3px 12px #050b1580}
+.site-header .brand-fn-icon span{color:#398cff}
+@media(max-width:450px){.site-header .brand-fn-icon{width:29px;height:29px;flex-basis:29px;font-size:15px}.site-header .brand{gap:8px}}
+</style>
+<style id="retro-estilos-de-imagen-v333">
+/* FutNexo V3.31: Selecciones, alineado con diseño de Clubes */
+.selection-kicker{color:#83b7ff;font-size:11px;font-weight:900;letter-spacing:.18em}
+.selection-photo{padding:14px!important;aspect-ratio:1/1.03;background:linear-gradient(145deg,#132a44,#101927)!important}
+.selection-image-link{width:100%;height:100%;display:flex;align-items:center;justify-content:center;border-radius:10px;background:#f8fafc;overflow:hidden;position:relative}
+.selection-image-link img{display:block;object-fit:contain;max-width:100%;max-height:100%;width:100%;height:100%;background:#f8fafc;border-radius:8px;filter:none}
+.selection-image-link img[hidden]{display:none!important}
+.selection-image-link .selection-photo-fallback{display:none;flex-direction:column;align-items:center;gap:13px;text-align:center;color:#19304b;font-size:13px;font-weight:800}
+.selection-image-link .selection-photo-fallback span{font-size:56px}
+.selection-image-link.photo-unavailable .selection-photo-fallback{display:flex}
+.selection-image-link:hover{outline:2px solid #529dff;outline-offset:-3px}
+.club-card-body h3{min-height:50px}
+.selection-source{display:inline-block;font-size:10px;color:#a6c8f8;text-decoration:underline;text-underline-offset:3px;margin-top:13px}
+.selection-source:hover{color:white}
+.selection-flag-banner{font-size:22px;letter-spacing:.06em;margin-top:28px;color:#a4ccff}
+.selection-disclaimer{margin:30px 0 0;color:#a0b4ce;font-size:11px;line-height:1.75}
+.selection-disclaimer a{color:#9ac4ff;text-decoration:underline}
+.selection-info{background:#0e1b2d;border:1px solid #28415f;padding:14px 18px;border-radius:11px;margin-top:16px;color:#b6cce6;font-size:12px;line-height:1.7}
+@media(max-width:480px){.selection-photo{padding:7px!important}.selection-image-link .selection-photo-fallback span{font-size:35px}.club-card-body h3{font-size:19px;min-height:45px}}
+</style>
+<style id="retro-fotos-cuadradas-v333">
+/* FutNexo V3.32 — ficha de camiseta, blanca y no interactiva */
+.selection-photo{
+  padding:0!important;
+  aspect-ratio:1 / 1!important;
+  background:#fff!important;
+  display:flex!important;align-items:stretch;justify-content:stretch;
+  overflow:hidden;
+}
+.selection-image-frame{
+  width:100%;height:100%;min-width:0;min-height:0;
+  position:relative;display:flex;align-items:center;justify-content:center;
+  background:#fff;border:0;border-radius:0;
+  padding:9px;box-sizing:border-box;
+  cursor:default;overflow:hidden;
+}
+.selection-image-frame img{
+  display:block!important;box-sizing:border-box;
+  width:100%!important;height:100%!important;
+  max-width:100%!important;max-height:100%!important;
+  object-fit:contain!important;object-position:center center;
+  border:0!important;border-radius:0!important;
+  padding:0!important;margin:0!important;
+  background:#fff!important;filter:none!important;
+  transform:none!important;transition:none!important;
+}
+.selection-image-frame img[hidden]{display:none!important}
+.selection-image-frame:focus,.selection-image-frame:hover{outline:none!important}
+.selection-image-frame .selection-photo-fallback{
+  display:none;flex-direction:column;align-items:center;justify-content:center;
+  background:#fff;color:#57677b;text-align:center;gap:10px;
+}
+.selection-image-frame.photo-unavailable .selection-photo-fallback{display:flex}
+.selection-placeholder-symbol{font-size:44px!important;color:#c5cfdd}
+.selection-image-frame .selection-photo-fallback small{font-size:11px;line-height:1.4}
+.club-card .club-card-body h3{word-break:normal;overflow-wrap:break-word}
+@media(max-width:480px){.selection-image-frame{padding:7px}.selection-placeholder-symbol{font-size:34px!important}}
+</style><style id="futnexo-retro-v333">/* FutNexo V3.33 Retro. Compatible con estilos.css actual */
+.club-photo.selection-photo{background:#fff!important}
+.club-card-body h3{min-height:30px!important}
+.club-card-body>p{min-height:27px}
+.club-photo-tag{display:none!important}
+.club-filter{white-space:nowrap}
+.club-count{margin-top:19px}
+.selection-disclaimer{margin-bottom:10px}
+@media(max-width:760px){.club-filters{display:flex;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;max-width:100%;gap:7px}.club-filter{flex-shrink:0}}
+@media(prefers-reduced-motion:reduce){.club-card:hover{transform:none}}
+</style>
+<style id="fn-v352-packs-css">
+.fn-promo-strip,.fn-pack-overview,.fn-pack-builder{font-family:inherit;color:#eaf4ff}
+.fn-promo-strip{max-width:1230px;margin:20px auto 26px;padding:16px 21px;border:1px solid rgba(92,210,252,.36);border-radius:18px;background:linear-gradient(110deg,rgba(20,50,86,.96),rgba(6,14,31,.96));box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.fn-promo-strip .fn-tag,.fn-pack-overview .fn-tag{display:inline-flex;align-items:center;gap:6px;padding:4px 9px;border-radius:999px;background:rgba(35,194,255,.14);color:#a8eafd;font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.fn-promo-strip h2{font-size:clamp(19px,2.2vw,28px);line-height:1.2;margin:9px 0;color:#f3faff}
+.fn-promo-strip p{color:#b4cadb;margin:7px 0;font-size:14px;line-height:1.5}
+.fn-promo-strip .fn-deals{display:flex;gap:10px;flex-wrap:wrap;margin:13px 0 11px}
+.fn-promo-strip .fn-deal{flex:1;min-width:185px;max-width:330px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:13px;padding:12px 14px}
+.fn-promo-strip .fn-deal b{display:block;font-size:13px;color:#b2dcf4;font-weight:700}
+.fn-promo-strip .fn-deal strong{font-size:22px;color:#fff;display:block;margin-top:4px}
+.fn-promo-strip .fn-deal span{font-size:12px;color:#aad4e1}
+.fn-promo-strip .fn-notes{display:flex;gap:8px 20px;flex-wrap:wrap;color:#cff4ff;font-size:12px;font-weight:600}
+.fn-pack-line{margin:8px 0 10px;padding:8px 10px;background:rgba(18,169,244,.12);border:1px solid rgba(61,199,250,.24);border-radius:10px;color:#b7e9ff;font-size:13px}
+.fn-pack-line strong{display:block;color:#fff;font-size:18px;line-height:1.4}
+.fn-pack-overview{margin:24px 0 10px;padding:20px;border:1px solid rgba(92,210,252,.36);background:linear-gradient(125deg,#102b4d,#091225);border-radius:19px}
+.fn-pack-overview h3{font-size:23px;color:#f3faff;margin:9px 0}
+.fn-pack-overview p{font-size:13px;line-height:1.6;color:#b9cedd;margin:5px 0 17px}
+.fn-pack-overview table{border-collapse:collapse;width:100%;font-size:14px;min-width:515px}
+.fn-pack-overview th,.fn-pack-overview td{padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.13);text-align:left}
+.fn-pack-overview th{background:rgba(36,170,238,.13);color:#d5f5ff;font-size:12px}
+.fn-pack-overview td{color:#e5f3ff}
+.fn-pack-overview td:nth-child(3){color:#8eecb9;font-weight:800}
+.fn-pack-overview .fn-table-wrap{overflow-x:auto;border:1px solid rgba(255,255,255,.12);border-radius:12px}
+.fn-pack-overview .fn-special{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border:1px solid rgba(117,237,179,.3);padding:15px;border-radius:12px;margin-top:16px;background:rgba(45,178,119,.08)}
+.fn-pack-overview .fn-special strong{font-size:19px;color:#8ff2c0}
+.fn-pack-builder{margin-top:22px;border:1px solid rgba(92,210,252,.36);border-radius:18px;padding:20px;background:rgba(4,17,37,.88)}
+.fn-pack-builder h3{margin:0 0 7px;font-size:22px;color:#f5faff}
+.fn-pack-builder p{font-size:13px;color:#b7cadb;margin:0 0 18px;line-height:1.6}
+.fn-pack-builder .fn-builder-fields{display:grid;grid-template-columns:minmax(230px,2fr) minmax(125px,1fr) minmax(125px,1fr);gap:12px}
+.fn-pack-builder label{display:block;color:#d2e9f7;font-size:12px;font-weight:800}
+.fn-pack-builder select{appearance:auto;width:100%;box-sizing:border-box;border:1px solid #47647e;border-radius:10px;padding:12px 10px;margin-top:7px;background:#0d2037;color:white;font:inherit;font-size:14px;min-height:45px}
+.fn-pack-builder .fn-builder-result{margin-top:17px;padding:17px;border-radius:13px;background:rgba(41,178,225,.11);border:1px solid rgba(91,192,247,.27);display:flex;align-items:center;justify-content:space-between;gap:13px;flex-wrap:wrap}
+.fn-pack-builder .fn-builder-result b{display:block;font-size:28px;color:#fff}
+.fn-pack-builder .fn-builder-result span{color:#aee7ff;font-size:12px}
+.fn-pack-builder .fn-builder-result a{border-radius:10px;padding:11px 15px;background:#36bae8;color:#061327!important;text-decoration:none;font-size:13px;font-weight:900}
+.fn-pack-builder .fn-builder-small{margin-top:10px;font-size:11px;color:#9bb9cb}
+@media(max-width:680px){.fn-promo-strip{margin:12px 13px 21px;padding:15px}.fn-promo-strip .fn-deals{gap:8px}.fn-promo-strip .fn-deal{min-width:125px}.fn-promo-strip .fn-deal strong{font-size:19px}.fn-pack-overview{padding:13px}.fn-pack-builder{padding:15px}.fn-pack-builder .fn-builder-fields{grid-template-columns:1fr}.fn-pack-builder .fn-builder-result b{font-size:25px}}
+</style>
+<style>/* V3.55: fichas navegables */
+.fn-product-image-link{display:block;color:inherit;text-decoration:none}
+.fn-product-title-link{text-decoration:none;color:inherit}
+.fn-product-title-link:hover{color:#8ecaff}
+.fn-pending-photo{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:170px;background:linear-gradient(135deg,#162748,#12162c);color:#a6bde1;gap:.5rem}
+.fn-pending-photo span{font-size:3.4rem}.fn-pending-photo small{font-size:.78rem}
+.fn-pending-model{border-style:dashed!important}
+.fn-bulk-note{margin:18px auto 24px;padding:14px 18px;border:1px solid #465987;border-radius:14px;background:#101d3d;color:#dbe9ff;font-size:.94rem;line-height:1.6}
+.fn-bulk-note a{color:#9ddaff}
+.fn-soon-ribbon{display:inline-flex;padding:6px 12px;border:1px solid #6670aa;border-radius:100px;font-size:.78rem;color:#e8d9ff}
+</style><style>
+#retro #club-grid{display:block!important}
+.fn-retro-team-section{margin:0 0 16px;border:1px solid #314263;background:#121e39;border-radius:18px;overflow:hidden}
+.fn-retro-team-section>summary{padding:18px 22px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;color:#fff;font-weight:750;list-style:none}
+.fn-retro-team-section>summary::-webkit-details-marker{display:none}
+.fn-retro-team-section>summary:before{content:'▸';color:#8ba9fa;transition:transform .15s}
+.fn-retro-team-section[open]>summary:before{transform:rotate(90deg)}
+.fn-retro-team-section>summary>span:first-child{flex:1}
+.fn-team-count{background:#273c61;border-radius:30px;padding:5px 12px;color:#d7e8fd;font-size:.8rem}
+.fn-retro-team-grid{padding:0 15px 17px;display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:16px}
+</style><style id="futnexo-base-v361">/* FutNexo V3.61 – hoja global reconstruida e integrada en cada HTML para que el sitio no dependa de archivos omitidos. */
+:root{--fn-bg:#060b15;--fn-panel:#111e31;--fn-stroke:#263a58;--fn-blue:#62a4ff;--fn-white:#eef5ff;--fn-muted:#9dacc1;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:300px;background:#060b15;color:var(--fn-white);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8abfff}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+button:disabled{cursor:not-allowed}
+img{max-width:100%;height:auto}
+h1,h2,h3,p{margin-top:0}
+h1,h2{line-height:1.12;letter-spacing:-.025em}
+h1{font-size:clamp(2.65rem,5vw,5rem);font-weight:900}
+h2{font-size:clamp(1.65rem,3vw,2.8rem);font-weight:850}
+h3{font-size:1.2rem}
+p{color:#bbcadc}
+.container{width:min(1170px,calc(100% - 44px));margin-left:auto;margin-right:auto}
+.section{padding-top:64px;padding-bottom:64px}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:77px;padding:13px max(24px,calc((100vw - 1170px)/2));background:#080f1b;border-bottom:1px solid #243653;position:relative;z-index:70}
+.site-header .brand,.footer .brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;font-weight:900;letter-spacing:.08em;color:#fff}
+.brand-wordmark{font-size:18px;font-weight:900;letter-spacing:.09em;line-height:1}
+.brand-wordmark span{color:#68a8ff}
+.site-header .nav{display:flex;align-items:center;gap:17px;flex-wrap:wrap;margin-left:auto}
+.nav a{font-size:12px;font-weight:750;color:#c9d6e9;transition:color .2s}
+.nav a:hover,.nav a[aria-current=page]{color:#6ca8ff}
+.header-cta,.site-header>a:not(.brand),a.button,.button,.btn-primary,.btn-secondary{border-radius:10px;padding:11px 16px;background:#277fe0;color:#fff;font-size:12px;font-weight:800;white-space:nowrap;display:inline-flex;justify-content:center;align-items:center;gap:8px}
+.header-cta:hover,a.button:hover,.button:hover{background:#4195f4;color:#fff}
+.menu-toggle{display:none;align-items:center;justify-content:center;background:#15263c;color:#f1f6ff;border:1px solid #3a5070;border-radius:9px;width:40px;height:40px}
+.mobile-nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:60;background:#101d30;border-bottom:1px solid #344b6c;padding:16px 24px;box-shadow:0 18px 35px #0009}
+.mobile-nav a{display:block;padding:10px 0;color:#ecf3ff;font-weight:700;font-size:13px}
+.mobile-nav.open,.mobile-nav.is-open,.mobile-nav[aria-hidden=false]{display:block}
+.eyebrow,.kicker,.club-kicker{font-size:11px;letter-spacing:.2em;color:#87b9ff;text-transform:uppercase;font-weight:900}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;align-items:center;min-height:540px;padding-top:62px;padding-bottom:62px}
+.hero-copy{max-width:650px}
+.hero-copy h1{margin:20px 0;color:#f8fbff}
+.hero-copy p{font-size:clamp(1rem,1.5vw,1.18rem);max-width:570px;color:#aebfd5}
+.hero-copy .hero-actions,.hero-actions{display:flex;gap:13px;align-items:center;flex-wrap:wrap;margin-top:22px}
+.hero-art{position:relative;min-height:390px;display:flex;align-items:center;justify-content:center}
+.hero-art .art-card{position:absolute;width:min(55%,230px);height:300px;border-radius:18px;padding:8px;border:1px solid #3f5d83;box-shadow:0 16px 35px #0008}
+.hero-art .art-card img{display:block;width:100%;height:100%;object-fit:contain;background:#e5e9ef;border-radius:12px}
+.hero-art .art-card:first-child{transform:rotate(-15deg) translateX(-77px);z-index:1}
+.hero-art .art-card:nth-child(2){transform:rotate(12deg) translateX(77px);z-index:2}
+.hero-art .art-card:nth-child(3){z-index:3}
+.hero-trust,.trust-strip{background:#101b2d;border-top:1px solid #20334e;border-bottom:1px solid #20334e}
+.trust-items,.club-benefits-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:17px;padding-bottom:17px;font-size:12px;color:#d9e6f5;font-weight:650}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:14px;margin:0 0 26px}
+.section-heading h2{margin:10px 0}
+.section-heading p{max-width:650px;margin:0;color:#aebed5}
+.legacy-collection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.legacy-collection-card{border:1px solid #314666;background:linear-gradient(140deg,#16243b,#0d182b);border-radius:15px;overflow:hidden;transition:border-color .2s,transform .2s}
+.legacy-collection-card:hover{transform:translateY(-3px);border-color:#5f9eea}
+.legacy-collection-image{display:flex;align-items:center;justify-content:center;background:#111d30;aspect-ratio:1.24;overflow:hidden}
+.legacy-collection-image img{width:100%;height:100%;object-fit:contain}
+.legacy-collection-body{padding:17px}
+.legacy-collection-body h3{margin-bottom:8px}
+.legacy-collection-body p{font-size:14px}
+.club-hero-wrap{border-top:1px solid #20334e}
+.club-hero h1{color:#fff;margin:12px 0 18px}
+.club-hero h1 span{color:#61a8ff}
+.club-hero-copy>p{max-width:610px}
+.club-photo,.catalog-photo{overflow:hidden}
+.club-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.club-card,.catalog-card{min-width:0;overflow:hidden;border:1px solid #30435e;border-radius:13px;background:#121d31}
+.club-card .club-photo img,.catalog-photo img{max-width:100%;max-height:100%;object-fit:contain}
+.club-card-body,.catalog-card-body{padding:15px}
+.club-card-body h3,.catalog-card-body h3{margin-bottom:5px;font-size:1.05rem}
+.club-card-body p,.catalog-card-body p{font-size:13px}
+.club-section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:23px}
+.club-section-head h2{margin:8px 0}
+.club-tools{display:flex;align-items:center;gap:16px;justify-content:space-between;flex-wrap:wrap;margin:18px 0}
+.filter-row{display:flex;flex-wrap:wrap;gap:7px}
+.catalog-filter{border:1px solid #355071;border-radius:22px;padding:9px 13px;background:#122239;color:#d5e4f7;font-size:12px;font-weight:750}
+.catalog-filter.active,.catalog-filter[aria-pressed=true]{background:#247cdc;border-color:#247cdc;color:white}
+.club-search{display:flex;align-items:center;gap:10px;background:#12233b;border:1px solid #344e72;border-radius:10px;padding:0 12px;min-width:200px}
+.club-search input{border:0;background:transparent;color:#fff;outline:0;padding:10px 0;min-width:0;width:100%}
+.club-search input::placeholder{color:#99aac4}
+.club-shop{padding-top:55px;padding-bottom:55px}
+.club-count{font-size:12px;color:#9fb0c8}
+.club-request{padding-top:26px;padding-bottom:65px}
+.club-request h2{font-size:clamp(1.5rem,2.5vw,2.3rem)}
+.club-benefits{background:#101d31}
+.footer{border-top:1px solid #273d58;background:#081321;padding:34px 0}
+.footer-inner{display:flex;align-items:start;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.footer p{font-size:12px;color:#a4b7cc}
+.footer-links{display:flex;gap:16px;flex-wrap:wrap}
+.footer-links a{font-size:12px;color:#cbd8e9}
+.price-grid,.pricing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.size-scroll{max-width:100%;overflow-x:auto}
+table{border-collapse:collapse;width:100%}th,td{padding:11px;border-bottom:1px solid #304563;text-align:left}
+th{color:#d4e8ff}
+:focus-visible{outline:3px solid #87b9ff;outline-offset:3px}
+@media(max-width:1050px){.site-header .nav{gap:9px}.site-header .nav a{font-size:11px}.club-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.header-cta{padding:9px}}
+@media(max-width:800px){.site-header{padding:11px 20px;min-height:69px}.site-header .nav{display:none}.menu-toggle{display:inline-flex}.mobile-nav:not([hidden]).open,.mobile-nav:not([hidden]).is-open{display:block}.hero{grid-template-columns:1fr;padding-top:42px;gap:0}.hero-art{min-height:310px}.hero-art .art-card{height:240px}.legacy-collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-section-head{align-items:start;flex-direction:column}.trust-items,.club-benefits-inner{justify-content:flex-start;column-gap:20px}.container{width:min(100% - 30px,1170px)}}
+@media(max-width:530px){.site-header{gap:8px;padding:10px 15px}.site-header .brand-wordmark{font-size:15px}.header-cta{display:none!important}.hero h1{font-size:2.5rem}.hero-art{min-height:270px}.hero-art .art-card{height:210px}.legacy-collection-grid{grid-template-columns:1fr}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.club-card-body,.catalog-card-body{padding:10px}.club-card-body h3,.catalog-card-body h3{font-size:.9rem}.filter-row{gap:5px}.catalog-filter{padding:7px 9px}.club-search{width:100%}.section{padding-top:38px;padding-bottom:38px}.footer-inner{flex-direction:column}}
+/* Ajustes de elementos compartidos no presentes en los ZIP antiguos */
+.announcement{display:flex;align-items:center;gap:8px;min-height:26px;padding:5px max(22px,calc((100vw - 1170px)/2));background:#050a12;color:#93a9c3;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.announcement .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#67e2a3;box-shadow:0 0 6px #67e2a3}
+.announcement-right{margin-left:auto;font-weight:500;letter-spacing:.04em;text-transform:none}
+.brand-wordmark-blue{color:#62a5fa}
+.hero-copy h1 span{color:#6dabff}
+.hero-buttons{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:24px 0 19px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 17px;border-radius:10px;font-size:12px;line-height:1.25;font-weight:850;transition:all .2s}
+.btn-primary{background:#237fdf;color:white}
+.btn-primary:hover{background:#459af5;color:white}
+.btn-outline{border:1px solid #476386;background:transparent;color:#d5e7ff}
+.btn-outline:hover{border-color:#62a5fa;color:#fff;background:#152741}
+.hero-stats{display:flex;gap:18px;align-items:center;margin-top:10px}
+.hero-stats>div{display:flex;align-items:baseline;gap:8px}
+.hero-stats strong{font-size:16px;color:#fff}
+.hero-stats small{font-size:12px;color:#a8bbd2}
+.hero-stats .stat-line{height:23px;width:1px;background:#435a76}
+.hero-art .art-card.art-back{transform:rotate(-14deg) translateX(-94px);z-index:1}
+.hero-art .art-card.art-front{transform:rotate(0) translateX(0);z-index:3}
+.hero-art .art-card.art-side{transform:rotate(12deg) translateX(94px);z-index:2}
+.hero-art-label{position:absolute;bottom:20px;z-index:5;padding:8px 12px;background:#122943e6;border:1px solid #426589;border-radius:28px;font-size:10px;letter-spacing:.11em;font-weight:900}
+.hero-glow{position:absolute;inset:10%;background:radial-gradient(ellipse,#184481a0,transparent 70%);pointer-events:none}
+.legacy-collection{min-width:0;display:block;overflow:hidden;border:1px solid #314563;border-radius:16px;background:linear-gradient(145deg,#17253a,#0b1727);transition:border-color .2s,transform .2s}
+.legacy-collection:hover{transform:translateY(-4px);border-color:#69a7f3;color:#fff}
+.legacy-collection-body{padding:17px 18px}
+.legacy-collection-body h3{margin:0 0 6px;font-size:17px;color:#fff}
+.legacy-collection-body p{font-size:13px;line-height:1.5;margin:0 0 15px;color:#a3b4cc}
+.legacy-collection-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px}
+.legacy-collection-bottom strong{color:#fff}
+.legacy-collection-bottom span{color:#70b3ff;font-size:11px;font-weight:850}
+.legacy-collection-image{height:auto;min-height:160px}
+.legacy-collection-image img{max-height:220px;object-fit:contain}
+.club-jersey-duo{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;height:100%}
+.club-jersey-duo img{max-width:43%;height:185px;object-fit:contain}
+.pricing-cards,.prices-grid,.price-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.price-card{border:1px solid #344963;background:#121f34;border-radius:14px;padding:22px}
+.price-card h3{font-size:13px;letter-spacing:.11em;margin-bottom:7px;color:#cbe0ff}
+.price-card .price{font-size:27px;color:white;font-weight:900;margin-bottom:8px}
+.price-card a{color:#72b2ff;font-weight:800;font-size:12px}
+.size-block{background:#0e1c30;border:1px solid #2c405d;border-radius:12px;padding:19px;margin:20px 0}
+@media(max-width:800px){.pricing-cards,.prices-grid,.price-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art .art-card.art-back{transform:rotate(-12deg) translateX(-72px)}.hero-art .art-card.art-side{transform:rotate(12deg) translateX(72px)}}
+@media(max-width:530px){.announcement{font-size:8px;padding:5px 14px}.announcement-right{display:none}.hero-stats{gap:12px}.hero-stats>div{flex-direction:column;align-items:start;gap:0}.hero-art .art-card.art-back{transform:rotate(-10deg) translateX(-56px)}.hero-art .art-card.art-side{transform:rotate(10deg) translateX(56px)}.pricing-cards,.prices-grid,.price-cards{grid-template-columns:1fr}}
+</style><style id="fn-hide-old-category-packs">.fn-pack-overview,.fn-pack-builder,.fn-promo-strip,.fn-pack-line{display:none!important}</style></head><body>
+<div class="announcement"><span class="dot"></span> FUTNEXO · CAMISETAS DE FÚTBOL <span class="announcement-right">Tu fútbol, tu camiseta</span></div>
+<header class="site-header">
+<a aria-label="FutNexo, volver al inicio" class="brand" href="index.html#inicio"><span aria-hidden="true" class="brand-fn-icon">F<span>N</span></span><span aria-hidden="true" class="brand-wordmark">FUT<span class="brand-wordmark-blue">NEXO</span></span></a>
+<nav aria-label="Navegación principal" class="nav"><a href="index.html#inicio">Inicio</a><a href="clubes.html">Clubes</a><a aria-current="page" href="selecciones.html">Selecciones</a><a aria-current="page" href="retro.html">Retro</a><a href="index.html#colecciones">Colecciones</a><a href="index.html#precios">Precios</a><a href="index.html#guia-tallas">Guía de tallas</a></nav>
+<a class="nav-cta" href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">Hablar por Instagram <span>↗</span></a>
+<button aria-controls="mobile-nav" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle" id="menu-toggle" type="button">☰</button>
+</header>
+<nav aria-label="Menú móvil" class="mobile-nav" id="mobile-nav"><a href="index.html#inicio">Inicio</a><a href="clubes.html">Clubes</a><a aria-current="page" href="selecciones.html">Selecciones</a><a aria-current="page" href="retro.html">Retro</a><a href="index.html#colecciones">Colecciones</a><a href="index.html#precios">Precios</a><a href="index.html#guia-tallas">Guía de tallas</a><a href="https://www.instagram.com/fut_nexo_/">Instagram ↗</a></nav>
+<main>
+<section class="club-hero-wrap"><div class="container club-hero">
+<div class="club-hero-copy"><div class="breadcrumbs"><a href="index.html#inicio">Inicio</a><span>›</span><span>Retro</span></div>
+<span class="selection-kicker">LOS CLÁSICOS NUNCA PASAN DE MODA.</span>
+<h1>CAMISETAS<br/><span>RETRO.</span></h1>
+<p>Vuelve a vestir las equipaciones que marcaron época. Explora modelos de clubes y selecciones de los 80, 90, 2000 y 2010 sin salir de FutNexo.</p>
+<div class="club-hero-buttons"><a class="btn btn-primary" href="#retro">EXPLORAR RETRO ↘</a><a class="btn btn-outline" href="index.html#guia-tallas">VER GUÍA DE TALLAS ↗</a></div>
+<div class="club-hero-facts"><span><strong>20</strong> modelos clásicos</span><i></i><span><strong>Clubes</strong> y selecciones</span><i></i><span>Retro desde <strong>25,99 €</strong></span></div>
+</div>
+<div aria-label="Camisetas retro de referencia de AC Milan, Real Madrid y Brasil" class="club-hero-art"><div class="club-halo"></div>
+<div class="club-hero-jersey jersey-left"><img alt="Imagen de apoyo pendiente de fotografía local" referrerpolicy="no-referrer" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDAiIGhlaWdodD0iNjMwIiB2aWV3Qm94PSIwIDAgNTQwIDYzMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJGb3RvZ3JhZsOtYSBwZW5kaWVudGUgZGUgY29uZmlybWFyIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxNDIyM2IiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyMTM2NWEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iNTQwIiBoZWlnaHQ9IjYzMCIgcng9IjI1IiBmaWxsPSJ1cmwoI2JnKSIvPjxwYXRoIGQ9Ik0xNzggMTI2bDQ4LTI3aDg4bDQ4IDI3IDc5IDUzLTQ4IDg4LTUwLTI1djE4MEgxOTdWMjQybC01MCAyNS00OC04OHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzc3OThjOCIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yMjUgOTljOCA0NiA4MiA0NiA5MCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiM3Nzk4YzgiIHN0cm9rZS13aWR0aD0iOSIvPjx0ZXh0IHg9IjI3MCIgeT0iNDgzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZjRmOGZmIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNyIgZm9udC13ZWlnaHQ9IjcwMCI+Rk9UT0dSQUbDjUE8L3RleHQ+PHRleHQgeD0iMjcwIiB5PSI1MjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNkMWRkZjQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI3Ij5QRU5ESUVOVEU8L3RleHQ+PHRleHQgeD0iMjcwIiB5PSI1NjkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM5Y2I1ZDgiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3Ij5Db25zdWx0YXIgZGlzcG9uaWJpbGlkYWQ8L3RleHQ+PC9zdmc+"/></div>
+<div class="club-hero-jersey jersey-right"><img alt="Imagen de apoyo pendiente de fotografía local" referrerpolicy="no-referrer" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDAiIGhlaWdodD0iNjMwIiB2aWV3Qm94PSIwIDAgNTQwIDYzMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJGb3RvZ3JhZsOtYSBwZW5kaWVudGUgZGUgY29uZmlybWFyIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxNDIyM2IiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyMTM2NWEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iNTQwIiBoZWlnaHQ9IjYzMCIgcng9IjI1IiBmaWxsPSJ1cmwoI2JnKSIvPjxwYXRoIGQ9Ik0xNzggMTI2bDQ4LTI3aDg4bDQ4IDI3IDc5IDUzLTQ4IDg4LTUwLTI1djE4MEgxOTdWMjQybC01MCAyNS00OC04OHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzc3OThjOCIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yMjUgOTljOCA0NiA4MiA0NiA5MCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiM3Nzk4YzgiIHN0cm9rZS13aWR0aD0iOSIvPjx0ZXh0IHg9IjI3MCIgeT0iNDgzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZjRmOGZmIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNyIgZm9udC13ZWlnaHQ9IjcwMCI+Rk9UT0dSQUbDjUE8L3RleHQ+PHRleHQgeD0iMjcwIiB5PSI1MjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNkMWRkZjQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI3Ij5QRU5ESUVOVEU8L3RleHQ+PHRleHQgeD0iMjcwIiB5PSI1NjkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM5Y2I1ZDgiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3Ij5Db25zdWx0YXIgZGlzcG9uaWJpbGlkYWQ8L3RleHQ+PC9zdmc+"/></div>
+<div class="club-hero-jersey jersey-main"><img alt="Camiseta retro de AC Milan 2006/07" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="assets/catalogo/80fa97004aeeb83c6fb3a5a9.webp"/></div>
+<span class="club-art-caption">FUTNEXO · RETRO</span></div>
+</div></section>
+<section class="club-benefits"><div class="container club-benefits-inner"><span>✦ Camisetas míticas</span><span>✦ Décadas 80, 90, 2000 y 2010</span><span>✦ Clubes y selecciones</span><span>✦ Consulta por Instagram</span></div></section>
+<section aria-label="Precios y descuentos de FutNexo" class="fn-promo-strip"><span class="fn-tag">Precios oficiales FutNexo</span><h2>Precios y descuentos por cantidad</h2><div class="fn-deals"><div class="fn-deal"><b>Precio por unidad</b><strong>Retro 25,99 €</strong><span>Descuentos sujetos a validación</span></div></div><div class="fn-notes"><span>✓ 2 prendas elegibles: hasta 15 %</span><span>✓ 3–4: hasta 20 %</span><span>✓ 5–9: hasta 30 %</span><span>✓ 10 o más: hasta 35 %</span><span>✓ Envío gratis desde 2 prendas</span></div><p>El descuento se aplica solo a categorías elegibles y puede reducirse para garantizar la viabilidad del pedido. Personalización y parche: +1,50 € cada uno por prenda. <a href="pedido.html">Consulta el importe validado al preparar tu pedido</a>.</p></section>
+<section class="container club-shop" id="retro"><div class="club-section-head"><div><span class="kicker">RECUERDOS QUE SE LLEVAN</span><h2>CAMISETAS CON HISTORIA.</h2>
+<p>Explora 32 referencias retro agrupadas por equipo y selección. Los nuevos modelos están pendientes de disponibilidad y fotografía.</p></div><a class="club-back" href="index.html#colecciones">← Volver a colecciones</a></div>
+<div class="club-tools"><div aria-label="Filtrar camisetas retro" class="club-filters" role="group"><button aria-pressed="true" class="club-filter active" data-retro-filter="todos" type="button">Todas (32)</button><button aria-pressed="false" class="club-filter" data-retro-filter="clubes" type="button">Clubes (20)</button><button aria-pressed="false" class="club-filter" data-retro-filter="selecciones" type="button">Selecciones (12)</button><button aria-pressed="false" class="club-filter" data-retro-filter="1980" type="button">Años 80 (3)</button><button aria-pressed="false" class="club-filter" data-retro-filter="1990" type="button">Años 90 (8)</button><button aria-pressed="false" class="club-filter" data-retro-filter="2000" type="button">Años 2000 (14)</button><button aria-pressed="false" class="club-filter" data-retro-filter="2010" type="button">Años 2010 (7)</button></div>
+<label class="club-search"><span aria-hidden="true">⌕</span><input aria-label="Buscar camiseta retro" autocomplete="off" id="club-search" placeholder="Buscar club, selección o jugador…" type="search"/></label></div>
+<p aria-live="polite" class="club-count" id="club-count" role="status">20 camisetas retro para explorar</p>
+<p class="fn-bulk-note">¿Quieres cinco o diez camisetas retro, incluso de distintos equipos? <a href="pedido.html">Prepara tu solicitud de grupo</a>.</p><div class="club-grid" id="club-grid"><details class="fn-retro-team-section" data-team="AC Milan" open=""><summary><span>AC Milan</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0195" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="AC Milan 2006/07 Kaká Pirlo Champions bwin"><a aria-label="Hacer solicitud de AC Milan en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0195"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de AC Milan, 2006/07" class="selection-image-frame"><img alt="Fotografía de AC Milan · Club · 2006/07" decoding="async" loading="lazy" src="assets/catalogo/7ceae0f8e9bef18c038378f9.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0195"><h3>AC Milan</h3></a><p>Club · 2006/07</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de AC Milan Club · 2006/07" href="pedido.html?ref=fn-0195">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0196" data-name="AC Milan" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="AC Milan 2002/03">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>AC Milan</h3><p>Retro · 2002/03 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0196">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Real Madrid" open=""><summary><span>Real Madrid</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0197" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Real Madrid 2001/02 Zidane Figo Raúl centenario"><a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0197"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Real Madrid, 2001/02" class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · 2001/02" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/2dfa91f5c3c5c40597dcb57c.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0197"><h3>Real Madrid</h3></a><p>Club · 2001/02</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · 2001/02" href="pedido.html?ref=fn-0197">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0198" data-name="Real Madrid" data-retro-category="clubes" data-retro-decade="2010" data-retro-search="Real Madrid 2011/12">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Real Madrid</h3><p>Retro · 2011/12 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0198">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="FC Barcelona" open=""><summary><span>FC Barcelona</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0199" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="FC Barcelona 2005/06 Ronaldinho 10"><a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0199"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de FC Barcelona, 2005/06" class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · 2005/06" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/a25f8601d50df4066e4544e2.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0199"><h3>FC Barcelona</h3></a><p>Club · 2005/06</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · 2005/06" href="pedido.html?ref=fn-0199">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0200" data-name="FC Barcelona" data-retro-category="clubes" data-retro-decade="2010" data-retro-search="FC Barcelona 2010/11">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>FC Barcelona</h3><p>Retro · 2010/11 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0200">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Brasil" open=""><summary><span>Brasil</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0201" data-retro-category="selecciones" data-retro-decade="2000" data-retro-search="Brasil 2002 Ronaldo Nazário Mundial"><a aria-label="Hacer solicitud de Brasil en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0201"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Brasil, 2002" class="selection-image-frame"><img alt="Fotografía de Brasil · Selección · 2002" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/d3f7f9d85abac8a93931d942.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0201"><h3>Brasil</h3></a><p>Selección · 2002</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Brasil Selección · 2002" href="pedido.html?ref=fn-0201">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0202" data-name="Brasil" data-retro-category="selecciones" data-retro-decade="1990" data-retro-search="Brasil 1994">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Brasil</h3><p>Retro · 1994 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0202">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Argentina" open=""><summary><span>Argentina</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0203" data-retro-category="selecciones" data-retro-decade="1980" data-retro-search="Argentina 1986 Maradona Mundial"><a aria-label="Hacer solicitud de Argentina en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0203"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Argentina, 1986" class="selection-image-frame"><img alt="Fotografía de Argentina · Selección · 1986" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/37dfb5a83bce037b1478e703.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0203"><h3>Argentina</h3></a><p>Selección · 1986</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Argentina Selección · 1986" href="pedido.html?ref=fn-0203">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0204" data-name="Argentina" data-retro-category="selecciones" data-retro-decade="1980" data-retro-search="Argentina 1986">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Argentina</h3><p>Retro · 1986 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0204">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Manchester United" open=""><summary><span>Manchester United</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0205" data-retro-category="clubes" data-retro-decade="1990" data-retro-search="Manchester United 1998/99 Beckham Sharp"><a aria-label="Hacer solicitud de Manchester United en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0205"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Manchester United, 1998/99" class="selection-image-frame"><img alt="Fotografía de Manchester United · Club · 1998/99" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/366a44556cb3fc225c43e860.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0205"><h3>Manchester United</h3></a><p>Club · 1998/99</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Manchester United Club · 1998/99" href="pedido.html?ref=fn-0205">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0206" data-name="Manchester United" data-retro-category="clubes" data-retro-decade="1990" data-retro-search="Manchester United 1998/99">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Manchester United</h3><p>Retro · 1998/99 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0206">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="España" open=""><summary><span>España</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0207" data-retro-category="selecciones" data-retro-decade="2010" data-retro-search="España 2010 Iniesta Mundial Xavi"><a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0207"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de España, 2010" class="selection-image-frame"><img alt="Fotografía de España · Selección · 2010" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/01d997b187d97c037a21cfbd.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0207"><h3>España</h3></a><p>Selección · 2010</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de España Selección · 2010" href="pedido.html?ref=fn-0207">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0208" data-name="España" data-retro-category="selecciones" data-retro-decade="2010" data-retro-search="España 2010">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>España</h3><p>Retro · 2010 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0208">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Inter de Milán" open=""><summary><span>Inter de Milán</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0209" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Inter de Milán 2009/10 Milito Mourinho Pirelli"><a aria-label="Hacer solicitud de Inter de Milán en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0209"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Inter de Milán, 2009/10" class="selection-image-frame"><img alt="Fotografía de Inter de Milán · Club · 2009/10" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/78f69e3371ed1662aeffcf68.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0209"><h3>Inter de Milán</h3></a><p>Club · 2009/10</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Inter de Milán Club · 2009/10" href="pedido.html?ref=fn-0209">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0210" data-name="Inter de Milán" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Inter de Milán 2009/10">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Inter de Milán</h3><p>Retro · 2009/10 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0210">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Liverpool" open=""><summary><span>Liverpool</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0211" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Liverpool 2004/05 Gerrard Istanbul"><a aria-label="Hacer solicitud de Liverpool en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0211"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Liverpool, 2004/05" class="selection-image-frame"><img alt="Fotografía de Liverpool · Club · 2004/05" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/1a5e13412bf96e24cd4bfdb8.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0211"><h3>Liverpool</h3></a><p>Club · 2004/05</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Liverpool Club · 2004/05" href="pedido.html?ref=fn-0211">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0212" data-name="Liverpool" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Liverpool 2004/05">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Liverpool</h3><p>Retro · 2004/05 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0212">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Juventus" open=""><summary><span>Juventus</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0213" data-retro-category="clubes" data-retro-decade="1990" data-retro-search="Juventus 1997/98 Del Piero Zidane Sony"><a aria-label="Hacer solicitud de Juventus en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0213"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Juventus, 1997/98" class="selection-image-frame"><img alt="Fotografía de Juventus · Club · 1997/98" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/724efc2ed8aed49b5d9bf568.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0213"><h3>Juventus</h3></a><p>Club · 1997/98</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Juventus Club · 1997/98" href="pedido.html?ref=fn-0213">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Arsenal" open=""><summary><span>Arsenal</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0214" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Arsenal 2005/06 Henry Highbury O2"><a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0214"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Arsenal, 2005/06" class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · 2005/06" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/ca2b9a2776689fce47369ce3.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0214"><h3>Arsenal</h3></a><p>Club · 2005/06</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · 2005/06" href="pedido.html?ref=fn-0214">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0215" data-name="Arsenal" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="Arsenal 2003/04">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Arsenal</h3><p>Retro · 2003/04 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0215">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Francia" open=""><summary><span>Francia</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0216" data-retro-category="selecciones" data-retro-decade="1990" data-retro-search="Francia 1998 Zidane Mundial"><a aria-label="Hacer solicitud de Francia en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0216"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Francia, 1998" class="selection-image-frame"><img alt="Fotografía de Francia · Selección · 1998" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/ff8f1689632e59659df3cd33.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0216"><h3>Francia</h3></a><p>Selección · 1998</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Francia Selección · 1998" href="pedido.html?ref=fn-0216">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0217" data-name="Francia" data-retro-category="selecciones" data-retro-decade="1990" data-retro-search="Francia 1998">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Francia</h3><p>Retro · 1998 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0217">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Chelsea" open=""><summary><span>Chelsea</span><span class="fn-team-count">2 modelos</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0218" data-retro-category="clubes" data-retro-decade="2010" data-retro-search="Chelsea 2011/12 Drogba Samsung Champions"><a aria-label="Hacer solicitud de Chelsea en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0218"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Chelsea, 2011/12" class="selection-image-frame"><img alt="Fotografía de Chelsea · Club · 2011/12" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/0d330981d7e68cde0142564c.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0218"><h3>Chelsea</h3></a><p>Club · 2011/12</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Chelsea Club · 2011/12" href="pedido.html?ref=fn-0218">Hacer pedido →</a></div></div></article><article class="club-card fn-pending-model" data-fn-product-id="fn-0219" data-name="Chelsea" data-retro-category="clubes" data-retro-decade="2010" data-retro-search="Chelsea 2011/12">
+<div aria-label="Sin fotografía confirmada" class="club-photo fn-pending-photo"><span aria-hidden="true">👕</span><small>Imagen pendiente</small></div>
+<div class="club-card-body"><h3>Chelsea</h3><p>Retro · 2011/12 · Modelo por confirmar</p>
+<div class="club-bottom"><strong>Disponibilidad por confirmar</strong><a href="pedido.html?ref=fn-0219">Consultar disponibilidad →</a></div></div>
+</article></div></details><details class="fn-retro-team-section" data-team="Países Bajos" open=""><summary><span>Países Bajos</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0220" data-retro-category="selecciones" data-retro-decade="1980" data-retro-search="Países Bajos 1988 Holanda Van Basten naranja Eurocopa"><a aria-label="Hacer solicitud de Países Bajos en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0220"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Países Bajos, 1988" class="selection-image-frame"><img alt="Fotografía de Países Bajos · Selección · 1988" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/19251e7a0faedc54359b1f98.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0220"><h3>Países Bajos</h3></a><p>Selección · 1988</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Países Bajos Selección · 1988" href="pedido.html?ref=fn-0220">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Bayern de Múnich" open=""><summary><span>Bayern de Múnich</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0221" data-retro-category="clubes" data-retro-decade="2010" data-retro-search="Bayern de Múnich 2012/13 Robben Ribéry"><a aria-label="Hacer solicitud de Bayern de Múnich en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0221"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Bayern de Múnich, 2012/13" class="selection-image-frame"><img alt="Fotografía de Bayern de Múnich · Club · 2012/13" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/e3ba33afddee07c5c06398a3.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0221"><h3>Bayern de Múnich</h3></a><p>Club · 2012/13</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Bayern de Múnich Club · 2012/13" href="pedido.html?ref=fn-0221">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Italia" open=""><summary><span>Italia</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0222" data-retro-category="selecciones" data-retro-decade="2000" data-retro-search="Italia 2006 Pirlo Cannavaro Mundial"><a aria-label="Hacer solicitud de Italia en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0222"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Italia, 2006" class="selection-image-frame"><img alt="Fotografía de Italia · Selección · 2006" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/22231e8df8c77f2a77047460.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0222"><h3>Italia</h3></a><p>Selección · 2006</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Italia Selección · 2006" href="pedido.html?ref=fn-0222">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Borussia Dortmund" open=""><summary><span>Borussia Dortmund</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0223" data-retro-category="clubes" data-retro-decade="1990" data-retro-search="Borussia Dortmund 1996/97 Champions Koller"><a aria-label="Hacer solicitud de Borussia Dortmund en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0223"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Borussia Dortmund, 1996/97" class="selection-image-frame"><img alt="Fotografía de Borussia Dortmund · Club · 1996/97" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/0420047b83ea5c28eb2d95b0.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0223"><h3>Borussia Dortmund</h3></a><p>Club · 1996/97</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Borussia Dortmund Club · 1996/97" href="pedido.html?ref=fn-0223">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Alemania" open=""><summary><span>Alemania</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0224" data-retro-category="selecciones" data-retro-decade="1990" data-retro-search="Alemania 1990 Alemania Occidental Matthäus Mundial"><a aria-label="Hacer solicitud de Alemania en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0224"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Alemania, 1990" class="selection-image-frame"><img alt="Fotografía de Alemania · Selección · 1990" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/4db4f15f7bedd1c06516be2f.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0224"><h3>Alemania</h3></a><p>Selección · 1990</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Alemania Selección · 1990" href="pedido.html?ref=fn-0224">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="FC Porto" open=""><summary><span>FC Porto</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0225" data-retro-category="clubes" data-retro-decade="2000" data-retro-search="FC Porto 2003/04 Oporto Mourinho Deco Revigres"><a aria-label="Hacer solicitud de FC Porto en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0225"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de FC Porto, 2003/04" class="selection-image-frame"><img alt="Fotografía de FC Porto · Club · 2003/04" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/b7f6862574012085c6779214.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0225"><h3>FC Porto</h3></a><p>Club · 2003/04</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de FC Porto Club · 2003/04" href="pedido.html?ref=fn-0225">Hacer pedido →</a></div></div></article></div></details><details class="fn-retro-team-section" data-team="Portugal" open=""><summary><span>Portugal</span><span class="fn-team-count">1 modelo</span></summary><div class="fn-retro-team-grid"><article class="club-card" data-fn-product-id="fn-0226" data-retro-category="selecciones" data-retro-decade="2000" data-retro-search="Portugal 2004 Cristiano Ronaldo Eurocopa"><a aria-label="Hacer solicitud de Portugal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0226"><div class="club-photo selection-photo"><div aria-label="Camiseta retro de Portugal, 2004" class="selection-image-frame"><img alt="Fotografía de Portugal · Selección · 2004" decoding="async" loading="lazy" onerror="this.hidden=true;this.parentElement.classList.add('photo-unavailable')" referrerpolicy="no-referrer" src="assets/catalogo/654e8df99909d58ef40e645a.webp"/><span class="selection-photo-fallback"><span aria-hidden="true" class="selection-placeholder-symbol">👕</span><small>Imagen no disponible</small></span></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0226"><h3>Portugal</h3></a><p>Selección · 2004</p><div class="club-bottom"><strong>Retro desde 25,99 €</strong><a aria-label="Configurar solicitud de Portugal Selección · 2004" href="pedido.html?ref=fn-0226">Hacer pedido →</a></div></div></article></div></details></div>
+<div class="selection-info">Si alguna foto no aparece, pulsa «Abrir fuente» en la tarjeta. La mayoría de imágenes se cargan desde servidores externos y pueden dejar de estar disponibles.</div>
+<p class="selection-disclaimer">Las fotografías muestran modelos históricos como referencia, no productos ni existencias garantizadas. Salvo la imagen del Milan facilitada para FutNexo, las demás se cargan desde fuentes externas y podrían dejar de estar disponibles. Confirma modelo, talla, autenticidad, licencias y precio total antes de realizar un pedido.</p></section>
+<section class="container club-request"><div class="club-request-text"><span class="kicker">¿RECUERDAS OTRA CAMISETA?</span><h2>LA BUSCAMOS CONTIGO.</h2><p>Dinos qué equipo, selección, temporada o jugador buscas. Consultaremos las opciones disponibles.</p></div>
+<a class="btn btn-primary" href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">PREGUNTAR POR INSTAGRAM ↗</a></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a aria-label="FutNexo, volver al inicio" class="brand" href="index.html#inicio"><span aria-hidden="true" class="brand-wordmark">FUT<span class="brand-wordmark-blue">NEXO</span></span></a><p>FutNexo · Tu fútbol, tu camiseta.<br/>Consulta la disponibilidad y las características antes de comprar.</p><div><a href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">Instagram ↗</a><a href="index.html#guia-tallas">Guía de tallas ↗</a></div></div><div class="container legal-note">Antes de comercializar artículos de marca, verificar procedencia, autenticidad y derechos de distribución. Completar la información legal y fiscal correspondiente.</div></footer>
+<script>(()=>{'use strict';
+ const cards=[...document.querySelectorAll('#club-grid .club-card')];
+ const buttons=[...document.querySelectorAll('.club-filter[data-retro-filter]')];
+ const search=document.getElementById('club-search');
+ const count=document.getElementById('club-count');
+ const grid=document.getElementById('club-grid');
+ const menu=document.getElementById('menu-toggle');
+ const mobile=document.getElementById('mobile-nav');
+ const normalize=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ let active='todos';
+ const none=document.createElement('p');none.className='club-none';none.textContent='No encontramos esa camiseta. Prueba con otro equipo, año o jugador.';none.hidden=true;grid.append(none);
+ function render(){const q=normalize(search.value.trim());let total=0;
+   cards.forEach(card=>{
+      const category=card.dataset.retroCategory, decade=card.dataset.retroDecade;
+      const matchingFilter=active==='todos'||category===active||decade===active;
+      const match=matchingFilter && normalize(card.dataset.retroSearch).includes(q);
+      card.hidden=!match;if(match)total++;
+   });
+   count.textContent=total+' '+(total===1?'camiseta retro':'camisetas retro')+' para explorar';none.hidden=total!==0;
+   for(const group of grid.querySelectorAll('.fn-retro-team-section')){
+      const visible=[...group.querySelectorAll('article.club-card')].filter(c=>!c.hidden);
+      group.hidden=visible.length===0;
+      const label=group.querySelector('.fn-team-count');
+      if(label)label.textContent=visible.length+' '+(visible.length===1?'modelo':'modelos');
+      if(q||active!=='todos')group.open=true;
+   }
+ }
+ buttons.forEach(button=>button.addEventListener('click',()=>{
+   active=button.dataset.retroFilter;
+   buttons.forEach(other=>{const selected=other===button;other.classList.toggle('active',selected);other.setAttribute('aria-pressed',String(selected))});
+   render();
+ }));
+ search.addEventListener('input',render);
+ if(menu&&mobile){menu.addEventListener('click',()=>{const open=mobile.classList.toggle('open');menu.textContent=open?'×':'☰';menu.setAttribute('aria-expanded',String(open))});
+   mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobile.classList.remove('open');menu.textContent='☰';menu.setAttribute('aria-expanded','false')}));}
+ render();
+})();</script><script>(function(){function setLinks(){document.querySelectorAll('#club-none,.club-none').forEach(function(p){var a=p.querySelector('a[href*="consulta-disponibilidad"]');if(!a){a=document.createElement('a');a.textContent=' Preguntar por la prenda →';p.appendChild(a);}a.classList.add('fn-availability-link');var q=document.getElementById('club-search');var text=q&&q.value.trim();a.href=text?'pedido.html?buscar='+encodeURIComponent(text)+'#consulta-disponibilidad':'pedido.html#consulta-disponibilidad';});}document.addEventListener('input',setLinks);document.addEventListener('click',setLinks);setLinks();})();</script><script src="catalogo-pedidos.js?v=367"></script><script src="carrito-catalogo.js?v=371"></script></body></html>

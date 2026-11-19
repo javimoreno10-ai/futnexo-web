@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#060911" name="theme-color"/>
+<meta content="Chándales de fútbol en FutNexo: 26 conjuntos de media cremallera y 17 de cremallera larga, organizados por clubes y selecciones. Precio 49,99 €. Consulta tallas y disponibilidad." name="description"/>
+<meta content="3.50" name="futnexo-version"/>
+<title>Chándals de equipos | FutNexo</title>
+<link href="styles.css?v=371" rel="stylesheet"/>
+<link href="favicon.svg?v=310" rel="icon" type="image/svg+xml"/>
+<style id="clubes-css-integrado">
+/* FutNexo V3.2: página interna de Clubes 26/27 */
+.nav a[aria-current=page],.mobile-nav a[aria-current=page]{color:#77b5ff}
+.club-hero-wrap{overflow:hidden;border-top:1px solid #14233a;background:radial-gradient(ellipse at 82% 45%,rgba(42,113,211,.27),transparent 49%),linear-gradient(115deg,#0b1425,#060b15 73%)}
+.club-hero{display:grid;grid-template-columns:1.03fr .97fr;min-height:495px;gap:24px;align-items:center;padding-top:25px;padding-bottom:35px}
+.breadcrumbs{display:flex;gap:10px;font-size:11px;color:#8a9fba;margin:10px 0 48px;align-items:center}.breadcrumbs a:hover{color:white}
+.club-kicker{color:#83b7ff;font-size:11px;font-weight:900;letter-spacing:.18em}
+.club-hero-copy h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(60px,7vw,103px);letter-spacing:.006em;line-height:.88;font-weight:900;margin:20px 0 22px}.club-hero-copy h1 span{color:#58a2ff}
+.club-hero-copy>p{color:#b5c6dc;line-height:1.8;font-size:14px;max-width:490px}
+.club-hero-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:27px}.club-hero-buttons .btn{padding:15px 19px}
+.club-hero-facts{margin-top:34px;color:#a6bbd3;display:flex;gap:16px;align-items:center;font-size:12px}.club-hero-facts strong{color:#fff}.club-hero-facts i{display:block;width:1px;height:19px;background:#36506e}
+.club-hero-art{height:415px;position:relative;display:flex;justify-content:center;align-items:center}
+.club-halo{position:absolute;width:380px;height:360px;max-width:95%;background:radial-gradient(circle,#3677e75b,transparent 69%);filter:blur(19px)}
+.club-hero-jersey{position:absolute;width:46%;max-width:235px;padding:10px;background:linear-gradient(150deg,#263b57,#101a2a);border:1px solid #4c719b;border-radius:17px;box-shadow:0 20px 60px #0009;overflow:hidden}
+.club-hero-jersey img{width:100%;aspect-ratio:.88;object-fit:contain;border-radius:10px;background:#fafcff}
+.club-hero-jersey.jersey-left{transform:rotate(-13deg) translate(-104px,25px);z-index:1;opacity:.89}
+.club-hero-jersey.jersey-right{transform:rotate(13deg) translate(106px,25px);z-index:2;opacity:.91}
+.club-hero-jersey.jersey-main{transform:translateY(-5px);z-index:3;border-color:#76b7ff;box-shadow:0 0 65px #2476dc69,0 25px 65px #000c}
+.club-art-caption{position:absolute;bottom:7px;z-index:4;padding:11px 14px;border:1px solid #3f628c;border-radius:99px;background:#111e32d9;color:#d7eaff;font-size:10px;letter-spacing:.15em;font-weight:900}
+.club-benefits{border-block:1px solid #1b2d47;background:#0b1628}.club-benefits-inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding-block:21px;color:#acc8eb;font-size:11px;font-weight:700}
+.club-shop{padding-top:83px;padding-bottom:90px}.club-section-head{display:flex;justify-content:space-between;gap:12px;align-items:end}.club-section-head h2{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(43px,5vw,68px);letter-spacing:.01em;line-height:1;margin:10px 0}.club-section-head p{color:#9dadc5;font-size:13px;line-height:1.6}.club-back{color:#9ec5ff;font-size:12px;font-weight:800;padding-bottom:13px;white-space:nowrap}
+.club-tools{margin-top:30px;display:flex;justify-content:space-between;gap:16px;align-items:center}.club-filters{display:flex;gap:8px;flex-wrap:wrap}.club-filter{background:#111c2a;border:1px solid #2a405b;color:#b2c4d9;font-size:12px;font-weight:800;padding:12px 19px;border-radius:9px;transition:background .2s}.club-filter:hover,.club-filter.active{background:#2b80ed;color:white;border-color:#4a99ff}
+.club-search{display:flex;gap:8px;align-items:center;border:1px solid #2c425f;border-radius:9px;background:#111e2e;padding:0 13px;min-width:225px}.club-search span{font-size:23px;color:#82b8ff}.club-search input{background:none;border:none;color:white;padding:12px 0;outline:0;width:100%;font-size:12px}.club-search input::placeholder{color:#8195b0}
+.club-count{color:#92b7e6;font-size:11px;font-weight:700;margin:16px 0 23px}
+.club-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.club-card{min-width:0;background:linear-gradient(150deg,#152337,#101824);border:1px solid #2b405d;border-radius:15px;overflow:hidden;transition:border-color .2s,transform .2s}.club-card:hover{border-color:#4996f5;transform:translateY(-4px)}
+.club-photo{position:relative;aspect-ratio:1/.96;padding:16px 23px;background:radial-gradient(circle at 50% 35%,#284669,#111d2c 72%);display:flex;align-items:center;justify-content:center}.club-photo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 10px #0005)}.club-photo-tag{position:absolute;left:12px;top:12px;border-radius:30px;padding:6px 10px;background:#0a1b30ec;border:1px solid #3b6899;color:#c6ddff;font-size:9px;font-weight:800;letter-spacing:.06em}
+.club-card-body{padding:17px}.club-card-body h3{font-family:'Barlow Condensed',sans-serif;font-size:23px;line-height:1.04;min-height:48px;font-weight:800;margin:0 0 7px}.club-card-body p{font-size:11px;color:#9fb2cc;margin:0 0 16px}.club-bottom{border-top:1px solid #304057;padding-top:13px;display:flex;align-items:center;gap:10px;justify-content:space-between}.club-bottom strong{font-size:11px;color:#c9dfff;white-space:nowrap}.club-bottom a{font-size:11px;font-weight:900;background:#2679e4;color:#fff;padding:10px 12px;border-radius:8px;text-align:center}.club-bottom a:hover{background:#4a98ff}
+.club-disclaimer{font-size:11px;color:#8f9fb7;line-height:1.7;margin:24px 0 0}.club-none{grid-column:1/-1;text-align:center;color:#abc2e0;border:1px dashed #3b5373;border-radius:12px;padding:48px 12px}
+.club-request{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-bottom:85px;padding-top:32px;padding-bottom:32px;background:linear-gradient(130deg,#143258,#0d1c32);border:1px solid #346397;border-radius:18px}.club-request h2{font-family:'Barlow Condensed',sans-serif;font-size:40px;font-weight:800;line-height:1;margin:11px 0}.club-request p{color:#b4c9e4;font-size:12px;line-height:1.65;max-width:540px;margin:0}.club-request .btn{white-space:nowrap}
+@media(max-width:1020px){.club-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.club-hero-copy h1{font-size:76px}}
+@media(max-width:760px){.club-hero{grid-template-columns:1fr;padding-top:20px;gap:4px}.breadcrumbs{margin-bottom:34px}.club-hero-copy h1{font-size:clamp(56px,11vw,76px)}.club-hero-art{height:290px}.club-hero-jersey{max-width:167px}.club-hero-jersey.jersey-left{transform:rotate(-12deg) translate(-77px,14px)}.club-hero-jersey.jersey-right{transform:rotate(12deg) translate(77px,14px)}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-section-head{align-items:start;flex-direction:column}.club-tools{align-items:stretch;flex-direction:column}.club-search{width:100%}.club-request{flex-direction:column;align-items:start}.club-benefits-inner{justify-content:center}.club-art-caption{bottom:0}}
+@media(max-width:480px){.club-hero-copy h1{font-size:59px}.club-hero-copy>p{font-size:13px}.club-hero-facts{flex-wrap:wrap}.club-hero-art{height:240px}.club-hero-jersey{max-width:132px;padding:6px}.club-hero-jersey.jersey-left{transform:rotate(-12deg) translate(-58px,15px)}.club-hero-jersey.jersey-right{transform:rotate(12deg) translate(58px,15px)}.club-shop{padding-top:58px}.club-grid{gap:10px}.club-photo{padding:13px 8px;aspect-ratio:1/1.06}.club-card-body{padding:12px}.club-card-body h3{font-size:20px;min-height:42px}.club-bottom{flex-direction:column;align-items:stretch}.club-bottom a{width:100%}.club-request h2{font-size:33px}.club-filter{font-size:11px;padding:10px 12px}}
+@media(prefers-reduced-motion:reduce){.club-card:hover{transform:none}}
+
+
+/* V3.3: más filtros, tarjetas robustas, todas las fotos integradas en HTML */
+.club-filters{max-width:100%;gap:7px}
+.club-filter{padding:11px 13px}
+.club-photo{background:linear-gradient(150deg,#172942,#0f192b)}
+.club-photo img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px}
+.club-photo-tag{z-index:1}
+.club-photo-tag.illustrated{color:#d8e4f8;background:#14233bec;border-color:#476080}
+.club-photo-tag.real-photo{color:#e7f2ff;background:#143355ec;border-color:#5388ba}
+.club-card-body h3{min-height:48px}
+.club-shop .club-guide{font-size:12px;line-height:1.75;color:#b6c6db;margin:12px 0 10px}
+.club-count strong{font-weight:900;color:#b5d6ff}
+@media(max-width:760px){.club-filters{display:flex;flex-wrap:nowrap;max-width:100%;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}.club-filter{flex-shrink:0}}
+
+.club-card[hidden], .club-none[hidden]{display:none!important;}
+
+.club-card-body h3{min-height:48px}.club-filter{white-space:nowrap}.club-filters{scrollbar-width:thin}
+
+/* FutNexo V3.10: fotos locales correctamente asignadas */
+.club-photo img.uploaded-kit-photo{background:#f7f8fa;border-radius:10px;padding:8px;filter:none;object-fit:contain}
+</style>
+<style id="futnexo-fn-logo-v39">
+.site-header .brand-fn-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 34px;width:34px;height:34px;border:1px solid #2f486c;border-radius:9px;background:#0b1425;color:white;font-family:Arial,sans-serif;font-size:17px;line-height:1;font-weight:900;letter-spacing:-1.5px;box-shadow:0 3px 12px #050b1580}
+.site-header .brand-fn-icon span{color:#398cff}
+@media(max-width:450px){.site-header .brand-fn-icon{width:29px;height:29px;flex-basis:29px;font-size:15px}.site-header .brand{gap:8px}}
+</style>
+<style id="retro-estilos-de-imagen-v333">
+/* FutNexo V3.31: Selecciones, alineado con diseño de Clubes */
+.selection-kicker{color:#83b7ff;font-size:11px;font-weight:900;letter-spacing:.18em}
+.selection-photo{padding:14px!important;aspect-ratio:1/1.03;background:linear-gradient(145deg,#132a44,#101927)!important}
+.selection-image-link{width:100%;height:100%;display:flex;align-items:center;justify-content:center;border-radius:10px;background:#f8fafc;overflow:hidden;position:relative}
+.selection-image-link img{display:block;object-fit:contain;max-width:100%;max-height:100%;width:100%;height:100%;background:#f8fafc;border-radius:8px;filter:none}
+.selection-image-link img[hidden]{display:none!important}
+.selection-image-link .selection-photo-fallback{display:none;flex-direction:column;align-items:center;gap:13px;text-align:center;color:#19304b;font-size:13px;font-weight:800}
+.selection-image-link .selection-photo-fallback span{font-size:56px}
+.selection-image-link.photo-unavailable .selection-photo-fallback{display:flex}
+.selection-image-link:hover{outline:2px solid #529dff;outline-offset:-3px}
+.club-card-body h3{min-height:50px}
+.selection-source{display:inline-block;font-size:10px;color:#a6c8f8;text-decoration:underline;text-underline-offset:3px;margin-top:13px}
+.selection-source:hover{color:white}
+.selection-flag-banner{font-size:22px;letter-spacing:.06em;margin-top:28px;color:#a4ccff}
+.selection-disclaimer{margin:30px 0 0;color:#a0b4ce;font-size:11px;line-height:1.75}
+.selection-disclaimer a{color:#9ac4ff;text-decoration:underline}
+.selection-info{background:#0e1b2d;border:1px solid #28415f;padding:14px 18px;border-radius:11px;margin-top:16px;color:#b6cce6;font-size:12px;line-height:1.7}
+@media(max-width:480px){.selection-photo{padding:7px!important}.selection-image-link .selection-photo-fallback span{font-size:35px}.club-card-body h3{font-size:19px;min-height:45px}}
+</style>
+<style id="retro-fotos-cuadradas-v333">
+/* FutNexo V3.32 — ficha de camiseta, blanca y no interactiva */
+.selection-photo{
+  padding:0!important;
+  aspect-ratio:1 / 1!important;
+  background:#fff!important;
+  display:flex!important;align-items:stretch;justify-content:stretch;
+  overflow:hidden;
+}
+.selection-image-frame{
+  width:100%;height:100%;min-width:0;min-height:0;
+  position:relative;display:flex;align-items:center;justify-content:center;
+  background:#fff;border:0;border-radius:0;
+  padding:9px;box-sizing:border-box;
+  cursor:default;overflow:hidden;
+}
+.selection-image-frame img{
+  display:block!important;box-sizing:border-box;
+  width:100%!important;height:100%!important;
+  max-width:100%!important;max-height:100%!important;
+  object-fit:contain!important;object-position:center center;
+  border:0!important;border-radius:0!important;
+  padding:0!important;margin:0!important;
+  background:#fff!important;filter:none!important;
+  transform:none!important;transition:none!important;
+}
+.selection-image-frame img[hidden]{display:none!important}
+.selection-image-frame:focus,.selection-image-frame:hover{outline:none!important}
+.selection-image-frame .selection-photo-fallback{
+  display:none;flex-direction:column;align-items:center;justify-content:center;
+  background:#fff;color:#57677b;text-align:center;gap:10px;
+}
+.selection-image-frame.photo-unavailable .selection-photo-fallback{display:flex}
+.selection-placeholder-symbol{font-size:44px!important;color:#c5cfdd}
+.selection-image-frame .selection-photo-fallback small{font-size:11px;line-height:1.4}
+.club-card .club-card-body h3{word-break:normal;overflow-wrap:break-word}
+@media(max-width:480px){.selection-image-frame{padding:7px}.selection-placeholder-symbol{font-size:34px!important}}
+</style><style id="futnexo-retro-v333">/* FutNexo V3.33 Retro. Compatible con estilos.css actual */
+.club-photo.selection-photo{background:#fff!important}
+.club-card-body h3{min-height:30px!important}
+.club-card-body>p{min-height:27px}
+.club-photo-tag{display:none!important}
+.club-filter{white-space:nowrap}
+.club-count{margin-top:19px}
+.selection-disclaimer{margin-bottom:10px}
+@media(max-width:760px){.club-filters{display:flex;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;max-width:100%;gap:7px}.club-filter{flex-shrink:0}}
+@media(prefers-reduced-motion:reduce){.club-card:hover{transform:none}}
+</style><style id="futnexo-chandals-v336">
+/* FutNexo V3.36: Chándals. Fotografías cuadradas con fondo blanco, no ampliables. */
+.club-hero-art .club-hero-jersey img{aspect-ratio:1/1!important;object-fit:contain!important;background:#fff!important;filter:none!important}
+.club-photo.selection-photo{padding:0!important;aspect-ratio:1/1!important;background:white!important;overflow:hidden}
+.selection-image-frame{width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:10px;box-sizing:border-box;background:white!important;position:relative;overflow:hidden;border:0;border-radius:0;cursor:default}
+.selection-image-frame img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;background:white!important;padding:0!important;margin:0!important;border-radius:0!important;filter:none!important;transform:none!important;transition:none!important}
+.selection-image-frame img[hidden]{display:none!important}
+.selection-photo-fallback{display:none;flex-direction:column;align-items:center;justify-content:center;color:#66798a;font-size:12px;text-align:center;line-height:1.6}
+.selection-image-frame.photo-unavailable .selection-photo-fallback{display:flex}
+.selection-placeholder-symbol{font-size:42px;color:#9dacc0}
+.club-card .club-card-body h3{min-height:30px!important;overflow-wrap:break-word}
+.club-card-body>p{min-height:25px}
+.club-card .club-bottom{gap:6px}
+.club-card .club-bottom strong{white-space:normal}
+.club-card[hidden],.club-none[hidden]{display:none!important}
+.club-filters{gap:7px}.club-filter{white-space:nowrap}
+.selection-source{display:inline-block;font-size:10px;color:#9fc3f5;text-decoration:underline;text-underline-offset:3px;margin-top:13px}
+.selection-source:hover{color:#fff}
+.selection-disclaimer{font-size:11px;line-height:1.75;color:#a0b4ce;margin:27px 0 0}
+@media(max-width:760px){.club-filters{display:flex;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;max-width:100%;padding-bottom:5px}.club-filter{flex-shrink:0}}
+@media(max-width:480px){.selection-image-frame{padding:7px}.club-card-body h3{font-size:19px}}
+@media(prefers-reduced-motion:reduce){.club-card:hover{transform:none}}
+</style>
+<style id="futnexo-v344-media-cremallera">
+body{background:#060911;color:#eaf2fd}
+.media-shop{padding-top:82px;padding-bottom:60px}
+.media-tools{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.media-team-section{margin:28px 0 42px}
+.media-team-section[hidden],.media-card[hidden],#media-none[hidden]{display:none!important}
+.media-team-heading{font-family:'Barlow Condensed',sans-serif;font-size:clamp(29px,4vw,40px);font-weight:900;color:#f2f7ff;line-height:1.2;margin:0 0 15px;padding-bottom:9px;border-bottom:1px solid #2c4666;display:flex;gap:12px;align-items:center}
+.media-team-heading span{font:700 11px system-ui,sans-serif;color:#94b4d6;background:#14253a;border:1px solid #2a4769;border-radius:40px;padding:6px 10px;white-space:nowrap}
+.media-card .club-photo.selection-photo{background:#fff!important;aspect-ratio:1 / 1!important;padding:0!important}
+.media-card .selection-image-frame{padding:8px!important;background:#fff!important}
+.media-card .selection-image-frame img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;background:#fff!important;filter:none!important}
+.media-card .club-card-body p{min-height:30px}
+.media-card .club-card-body h3{color:#f7faff}
+.media-shop .club-count{margin:18px 0 5px}
+.media-shop .club-disclaimer{margin-top:12px}
+#media-none{margin-top:25px}
+@media(max-width:760px){.media-tools{flex-direction:column;align-items:stretch}.media-tools .club-search{width:100%}.media-shop{padding-top:60px}.media-team-section{margin:24px 0 35px}}
+@media(max-width:480px){.media-team-heading{font-size:28px}.media-team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.media-card .club-card-body h3{font-size:19px}.media-card .selection-image-frame{padding:5px!important}}
+
+.entera-team-section{margin:28px 0 42px}
+.entera-team-section[hidden],.entera-card[hidden],#entera-none[hidden]{display:none!important}
+.entera-team-heading{font-family:'Barlow Condensed',sans-serif;font-size:clamp(29px,4vw,40px);font-weight:900;color:#f2f7ff;line-height:1.2;margin:0 0 15px;padding-bottom:9px;border-bottom:1px solid #2c4666;display:flex;gap:12px;align-items:center}
+.entera-team-heading span{font:700 11px system-ui,sans-serif;color:#94b4d6;background:#14253a;border:1px solid #2a4769;border-radius:40px;padding:6px 10px;white-space:nowrap}
+.entera-card .club-photo.selection-photo{background:#fff!important;aspect-ratio:1 / 1!important;padding:0!important}
+.entera-card .selection-image-frame{padding:8px!important;background:#fff!important}
+.entera-card .selection-image-frame img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;background:#fff!important;filter:none!important}
+@media(max-width:760px){.entera-tools{flex-direction:column;align-items:stretch}.entera-tools .club-search{width:100%}.entera-team-section{margin:24px 0 35px}}
+@media(max-width:480px){.entera-team-heading{font-size:28px}.entera-team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.entera-card .club-card-body h3{font-size:19px}.entera-card .selection-image-frame{padding:5px!important}}
+</style>
+<style id="futnexo-v346-chandals-por-tipo">
+.chandal-type-filters{display:flex;flex-wrap:wrap;gap:9px;margin:28px 0 28px;padding-bottom:4px}
+.chandal-type-button{font-size:13px;padding:13px 21px;white-space:nowrap}
+.chandal-type-button span{opacity:.78;margin-left:4px}
+.chandal-type-panel[hidden]{display:none!important}
+.chandal-panel-heading{margin:6px 0 24px}
+.chandal-panel-heading h3{font-family:'Barlow Condensed',Arial,sans-serif;font-weight:900;font-size:clamp(34px,4vw,48px);line-height:1.05;margin:0 0 10px;color:#eff6ff}
+.chandal-panel-heading p{font-size:13px;color:#a9c1dc;max-width:670px;line-height:1.7;margin:0}
+.chandal-empty{border:1px dashed #355477;border-radius:16px;background:#0d1c2c;padding:60px 24px;text-align:center;margin:24px 0 55px}
+.chandal-empty-icon{color:#75aff8;font-size:39px;line-height:1.2}
+.chandal-empty h4{font-family:'Barlow Condensed',Arial,sans-serif;font-size:33px;margin:10px 0;font-weight:900;color:#eff7ff}
+.chandal-empty p{font-size:13px;line-height:1.7;color:#a4bedc;max-width:510px;margin:auto}
+@media(max-width:760px){.chandal-type-filters{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;max-width:100%}.chandal-type-button{flex-shrink:0}}
+@media(max-width:480px){.chandal-type-button{font-size:12px;padding:11px 13px}.chandal-empty{padding:36px 16px}}
+</style>
+<style id="futnexo-v348-portada">
+/* FutNexo V3.48 — portada con dos colecciones y tarjetas alineadas */
+.club-hero-copy h1{letter-spacing:.003em}
+.club-hero-buttons .btn{min-width:214px;text-align:center;display:inline-flex;align-items:center;justify-content:center}
+.club-hero-art .club-hero-jersey{transition:box-shadow .2s ease}
+.club-hero-art .club-hero-jersey img{background:#fff!important;object-fit:contain!important;aspect-ratio:1/1!important}
+.media-team-grid .club-card-body p,.entera-team-grid .club-card-body p{min-height:33px;line-height:1.55}
+.chandal-type-filters{scroll-margin-top:110px}
+#media-cremallera{scroll-margin-top:82px}
+@media(max-width:760px){.club-hero-buttons .btn{min-width:0;flex:1 1 205px}.club-hero-copy h1{font-size:clamp(53px,10.5vw,75px)}}
+@media(max-width:480px){.club-hero-buttons{display:grid;grid-template-columns:1fr}.club-hero-buttons .btn{width:100%;min-width:0}.club-hero-copy h1{font-size:clamp(50px,11vw,61px)}}
+</style>
+<style id="fn-v352-packs-css">
+.fn-promo-strip,.fn-pack-overview,.fn-pack-builder{font-family:inherit;color:#eaf4ff}
+.fn-promo-strip{max-width:1230px;margin:20px auto 26px;padding:16px 21px;border:1px solid rgba(92,210,252,.36);border-radius:18px;background:linear-gradient(110deg,rgba(20,50,86,.96),rgba(6,14,31,.96));box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.fn-promo-strip .fn-tag,.fn-pack-overview .fn-tag{display:inline-flex;align-items:center;gap:6px;padding:4px 9px;border-radius:999px;background:rgba(35,194,255,.14);color:#a8eafd;font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.fn-promo-strip h2{font-size:clamp(19px,2.2vw,28px);line-height:1.2;margin:9px 0;color:#f3faff}
+.fn-promo-strip p{color:#b4cadb;margin:7px 0;font-size:14px;line-height:1.5}
+.fn-promo-strip .fn-deals{display:flex;gap:10px;flex-wrap:wrap;margin:13px 0 11px}
+.fn-promo-strip .fn-deal{flex:1;min-width:185px;max-width:330px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:13px;padding:12px 14px}
+.fn-promo-strip .fn-deal b{display:block;font-size:13px;color:#b2dcf4;font-weight:700}
+.fn-promo-strip .fn-deal strong{font-size:22px;color:#fff;display:block;margin-top:4px}
+.fn-promo-strip .fn-deal span{font-size:12px;color:#aad4e1}
+.fn-promo-strip .fn-notes{display:flex;gap:8px 20px;flex-wrap:wrap;color:#cff4ff;font-size:12px;font-weight:600}
+.fn-pack-line{margin:8px 0 10px;padding:8px 10px;background:rgba(18,169,244,.12);border:1px solid rgba(61,199,250,.24);border-radius:10px;color:#b7e9ff;font-size:13px}
+.fn-pack-line strong{display:block;color:#fff;font-size:18px;line-height:1.4}
+.fn-pack-overview{margin:24px 0 10px;padding:20px;border:1px solid rgba(92,210,252,.36);background:linear-gradient(125deg,#102b4d,#091225);border-radius:19px}
+.fn-pack-overview h3{font-size:23px;color:#f3faff;margin:9px 0}
+.fn-pack-overview p{font-size:13px;line-height:1.6;color:#b9cedd;margin:5px 0 17px}
+.fn-pack-overview table{border-collapse:collapse;width:100%;font-size:14px;min-width:515px}
+.fn-pack-overview th,.fn-pack-overview td{padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.13);text-align:left}
+.fn-pack-overview th{background:rgba(36,170,238,.13);color:#d5f5ff;font-size:12px}
+.fn-pack-overview td{color:#e5f3ff}
+.fn-pack-overview td:nth-child(3){color:#8eecb9;font-weight:800}
+.fn-pack-overview .fn-table-wrap{overflow-x:auto;border:1px solid rgba(255,255,255,.12);border-radius:12px}
+.fn-pack-overview .fn-special{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border:1px solid rgba(117,237,179,.3);padding:15px;border-radius:12px;margin-top:16px;background:rgba(45,178,119,.08)}
+.fn-pack-overview .fn-special strong{font-size:19px;color:#8ff2c0}
+.fn-pack-builder{margin-top:22px;border:1px solid rgba(92,210,252,.36);border-radius:18px;padding:20px;background:rgba(4,17,37,.88)}
+.fn-pack-builder h3{margin:0 0 7px;font-size:22px;color:#f5faff}
+.fn-pack-builder p{font-size:13px;color:#b7cadb;margin:0 0 18px;line-height:1.6}
+.fn-pack-builder .fn-builder-fields{display:grid;grid-template-columns:minmax(230px,2fr) minmax(125px,1fr) minmax(125px,1fr);gap:12px}
+.fn-pack-builder label{display:block;color:#d2e9f7;font-size:12px;font-weight:800}
+.fn-pack-builder select{appearance:auto;width:100%;box-sizing:border-box;border:1px solid #47647e;border-radius:10px;padding:12px 10px;margin-top:7px;background:#0d2037;color:white;font:inherit;font-size:14px;min-height:45px}
+.fn-pack-builder .fn-builder-result{margin-top:17px;padding:17px;border-radius:13px;background:rgba(41,178,225,.11);border:1px solid rgba(91,192,247,.27);display:flex;align-items:center;justify-content:space-between;gap:13px;flex-wrap:wrap}
+.fn-pack-builder .fn-builder-result b{display:block;font-size:28px;color:#fff}
+.fn-pack-builder .fn-builder-result span{color:#aee7ff;font-size:12px}
+.fn-pack-builder .fn-builder-result a{border-radius:10px;padding:11px 15px;background:#36bae8;color:#061327!important;text-decoration:none;font-size:13px;font-weight:900}
+.fn-pack-builder .fn-builder-small{margin-top:10px;font-size:11px;color:#9bb9cb}
+@media(max-width:680px){.fn-promo-strip{margin:12px 13px 21px;padding:15px}.fn-promo-strip .fn-deals{gap:8px}.fn-promo-strip .fn-deal{min-width:125px}.fn-promo-strip .fn-deal strong{font-size:19px}.fn-pack-overview{padding:13px}.fn-pack-builder{padding:15px}.fn-pack-builder .fn-builder-fields{grid-template-columns:1fr}.fn-pack-builder .fn-builder-result b{font-size:25px}}
+</style>
+<style>/* V3.55: fichas navegables */
+.fn-product-image-link{display:block;color:inherit;text-decoration:none}
+.fn-product-title-link{text-decoration:none;color:inherit}
+.fn-product-title-link:hover{color:#8ecaff}
+.fn-pending-photo{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:170px;background:linear-gradient(135deg,#162748,#12162c);color:#a6bde1;gap:.5rem}
+.fn-pending-photo span{font-size:3.4rem}.fn-pending-photo small{font-size:.78rem}
+.fn-pending-model{border-style:dashed!important}
+.fn-bulk-note{margin:18px auto 24px;padding:14px 18px;border:1px solid #465987;border-radius:14px;background:#101d3d;color:#dbe9ff;font-size:.94rem;line-height:1.6}
+.fn-bulk-note a{color:#9ddaff}
+.fn-soon-ribbon{display:inline-flex;padding:6px 12px;border:1px solid #6670aa;border-radius:100px;font-size:.78rem;color:#e8d9ff}
+</style><style id="futnexo-base-v361">/* FutNexo V3.61 – hoja global reconstruida e integrada en cada HTML para que el sitio no dependa de archivos omitidos. */
+:root{--fn-bg:#060b15;--fn-panel:#111e31;--fn-stroke:#263a58;--fn-blue:#62a4ff;--fn-white:#eef5ff;--fn-muted:#9dacc1;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:300px;background:#060b15;color:var(--fn-white);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+a:hover{color:#8abfff}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+button:disabled{cursor:not-allowed}
+img{max-width:100%;height:auto}
+h1,h2,h3,p{margin-top:0}
+h1,h2{line-height:1.12;letter-spacing:-.025em}
+h1{font-size:clamp(2.65rem,5vw,5rem);font-weight:900}
+h2{font-size:clamp(1.65rem,3vw,2.8rem);font-weight:850}
+h3{font-size:1.2rem}
+p{color:#bbcadc}
+.container{width:min(1170px,calc(100% - 44px));margin-left:auto;margin-right:auto}
+.section{padding-top:64px;padding-bottom:64px}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:77px;padding:13px max(24px,calc((100vw - 1170px)/2));background:#080f1b;border-bottom:1px solid #243653;position:relative;z-index:70}
+.site-header .brand,.footer .brand{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;font-weight:900;letter-spacing:.08em;color:#fff}
+.brand-wordmark{font-size:18px;font-weight:900;letter-spacing:.09em;line-height:1}
+.brand-wordmark span{color:#68a8ff}
+.site-header .nav{display:flex;align-items:center;gap:17px;flex-wrap:wrap;margin-left:auto}
+.nav a{font-size:12px;font-weight:750;color:#c9d6e9;transition:color .2s}
+.nav a:hover,.nav a[aria-current=page]{color:#6ca8ff}
+.header-cta,.site-header>a:not(.brand),a.button,.button,.btn-primary,.btn-secondary{border-radius:10px;padding:11px 16px;background:#277fe0;color:#fff;font-size:12px;font-weight:800;white-space:nowrap;display:inline-flex;justify-content:center;align-items:center;gap:8px}
+.header-cta:hover,a.button:hover,.button:hover{background:#4195f4;color:#fff}
+.menu-toggle{display:none;align-items:center;justify-content:center;background:#15263c;color:#f1f6ff;border:1px solid #3a5070;border-radius:9px;width:40px;height:40px}
+.mobile-nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:60;background:#101d30;border-bottom:1px solid #344b6c;padding:16px 24px;box-shadow:0 18px 35px #0009}
+.mobile-nav a{display:block;padding:10px 0;color:#ecf3ff;font-weight:700;font-size:13px}
+.mobile-nav.open,.mobile-nav.is-open,.mobile-nav[aria-hidden=false]{display:block}
+.eyebrow,.kicker,.club-kicker{font-size:11px;letter-spacing:.2em;color:#87b9ff;text-transform:uppercase;font-weight:900}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:40px;align-items:center;min-height:540px;padding-top:62px;padding-bottom:62px}
+.hero-copy{max-width:650px}
+.hero-copy h1{margin:20px 0;color:#f8fbff}
+.hero-copy p{font-size:clamp(1rem,1.5vw,1.18rem);max-width:570px;color:#aebfd5}
+.hero-copy .hero-actions,.hero-actions{display:flex;gap:13px;align-items:center;flex-wrap:wrap;margin-top:22px}
+.hero-art{position:relative;min-height:390px;display:flex;align-items:center;justify-content:center}
+.hero-art .art-card{position:absolute;width:min(55%,230px);height:300px;border-radius:18px;padding:8px;border:1px solid #3f5d83;box-shadow:0 16px 35px #0008}
+.hero-art .art-card img{display:block;width:100%;height:100%;object-fit:contain;background:#e5e9ef;border-radius:12px}
+.hero-art .art-card:first-child{transform:rotate(-15deg) translateX(-77px);z-index:1}
+.hero-art .art-card:nth-child(2){transform:rotate(12deg) translateX(77px);z-index:2}
+.hero-art .art-card:nth-child(3){z-index:3}
+.hero-trust,.trust-strip{background:#101b2d;border-top:1px solid #20334e;border-bottom:1px solid #20334e}
+.trust-items,.club-benefits-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:17px;padding-bottom:17px;font-size:12px;color:#d9e6f5;font-weight:650}
+.section-heading{display:flex;justify-content:space-between;align-items:end;gap:14px;margin:0 0 26px}
+.section-heading h2{margin:10px 0}
+.section-heading p{max-width:650px;margin:0;color:#aebed5}
+.legacy-collection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.legacy-collection-card{border:1px solid #314666;background:linear-gradient(140deg,#16243b,#0d182b);border-radius:15px;overflow:hidden;transition:border-color .2s,transform .2s}
+.legacy-collection-card:hover{transform:translateY(-3px);border-color:#5f9eea}
+.legacy-collection-image{display:flex;align-items:center;justify-content:center;background:#111d30;aspect-ratio:1.24;overflow:hidden}
+.legacy-collection-image img{width:100%;height:100%;object-fit:contain}
+.legacy-collection-body{padding:17px}
+.legacy-collection-body h3{margin-bottom:8px}
+.legacy-collection-body p{font-size:14px}
+.club-hero-wrap{border-top:1px solid #20334e}
+.club-hero h1{color:#fff;margin:12px 0 18px}
+.club-hero h1 span{color:#61a8ff}
+.club-hero-copy>p{max-width:610px}
+.club-photo,.catalog-photo{overflow:hidden}
+.club-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.club-card,.catalog-card{min-width:0;overflow:hidden;border:1px solid #30435e;border-radius:13px;background:#121d31}
+.club-card .club-photo img,.catalog-photo img{max-width:100%;max-height:100%;object-fit:contain}
+.club-card-body,.catalog-card-body{padding:15px}
+.club-card-body h3,.catalog-card-body h3{margin-bottom:5px;font-size:1.05rem}
+.club-card-body p,.catalog-card-body p{font-size:13px}
+.club-section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:23px}
+.club-section-head h2{margin:8px 0}
+.club-tools{display:flex;align-items:center;gap:16px;justify-content:space-between;flex-wrap:wrap;margin:18px 0}
+.filter-row{display:flex;flex-wrap:wrap;gap:7px}
+.catalog-filter{border:1px solid #355071;border-radius:22px;padding:9px 13px;background:#122239;color:#d5e4f7;font-size:12px;font-weight:750}
+.catalog-filter.active,.catalog-filter[aria-pressed=true]{background:#247cdc;border-color:#247cdc;color:white}
+.club-search{display:flex;align-items:center;gap:10px;background:#12233b;border:1px solid #344e72;border-radius:10px;padding:0 12px;min-width:200px}
+.club-search input{border:0;background:transparent;color:#fff;outline:0;padding:10px 0;min-width:0;width:100%}
+.club-search input::placeholder{color:#99aac4}
+.club-shop{padding-top:55px;padding-bottom:55px}
+.club-count{font-size:12px;color:#9fb0c8}
+.club-request{padding-top:26px;padding-bottom:65px}
+.club-request h2{font-size:clamp(1.5rem,2.5vw,2.3rem)}
+.club-benefits{background:#101d31}
+.footer{border-top:1px solid #273d58;background:#081321;padding:34px 0}
+.footer-inner{display:flex;align-items:start;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.footer p{font-size:12px;color:#a4b7cc}
+.footer-links{display:flex;gap:16px;flex-wrap:wrap}
+.footer-links a{font-size:12px;color:#cbd8e9}
+.price-grid,.pricing-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.size-scroll{max-width:100%;overflow-x:auto}
+table{border-collapse:collapse;width:100%}th,td{padding:11px;border-bottom:1px solid #304563;text-align:left}
+th{color:#d4e8ff}
+:focus-visible{outline:3px solid #87b9ff;outline-offset:3px}
+@media(max-width:1050px){.site-header .nav{gap:9px}.site-header .nav a{font-size:11px}.club-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.header-cta{padding:9px}}
+@media(max-width:800px){.site-header{padding:11px 20px;min-height:69px}.site-header .nav{display:none}.menu-toggle{display:inline-flex}.mobile-nav:not([hidden]).open,.mobile-nav:not([hidden]).is-open{display:block}.hero{grid-template-columns:1fr;padding-top:42px;gap:0}.hero-art{min-height:310px}.hero-art .art-card{height:240px}.legacy-collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.club-section-head{align-items:start;flex-direction:column}.trust-items,.club-benefits-inner{justify-content:flex-start;column-gap:20px}.container{width:min(100% - 30px,1170px)}}
+@media(max-width:530px){.site-header{gap:8px;padding:10px 15px}.site-header .brand-wordmark{font-size:15px}.header-cta{display:none!important}.hero h1{font-size:2.5rem}.hero-art{min-height:270px}.hero-art .art-card{height:210px}.legacy-collection-grid{grid-template-columns:1fr}.club-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.club-card-body,.catalog-card-body{padding:10px}.club-card-body h3,.catalog-card-body h3{font-size:.9rem}.filter-row{gap:5px}.catalog-filter{padding:7px 9px}.club-search{width:100%}.section{padding-top:38px;padding-bottom:38px}.footer-inner{flex-direction:column}}
+/* Ajustes de elementos compartidos no presentes en los ZIP antiguos */
+.announcement{display:flex;align-items:center;gap:8px;min-height:26px;padding:5px max(22px,calc((100vw - 1170px)/2));background:#050a12;color:#93a9c3;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.announcement .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#67e2a3;box-shadow:0 0 6px #67e2a3}
+.announcement-right{margin-left:auto;font-weight:500;letter-spacing:.04em;text-transform:none}
+.brand-wordmark-blue{color:#62a5fa}
+.hero-copy h1 span{color:#6dabff}
+.hero-buttons{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:24px 0 19px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 17px;border-radius:10px;font-size:12px;line-height:1.25;font-weight:850;transition:all .2s}
+.btn-primary{background:#237fdf;color:white}
+.btn-primary:hover{background:#459af5;color:white}
+.btn-outline{border:1px solid #476386;background:transparent;color:#d5e7ff}
+.btn-outline:hover{border-color:#62a5fa;color:#fff;background:#152741}
+.hero-stats{display:flex;gap:18px;align-items:center;margin-top:10px}
+.hero-stats>div{display:flex;align-items:baseline;gap:8px}
+.hero-stats strong{font-size:16px;color:#fff}
+.hero-stats small{font-size:12px;color:#a8bbd2}
+.hero-stats .stat-line{height:23px;width:1px;background:#435a76}
+.hero-art .art-card.art-back{transform:rotate(-14deg) translateX(-94px);z-index:1}
+.hero-art .art-card.art-front{transform:rotate(0) translateX(0);z-index:3}
+.hero-art .art-card.art-side{transform:rotate(12deg) translateX(94px);z-index:2}
+.hero-art-label{position:absolute;bottom:20px;z-index:5;padding:8px 12px;background:#122943e6;border:1px solid #426589;border-radius:28px;font-size:10px;letter-spacing:.11em;font-weight:900}
+.hero-glow{position:absolute;inset:10%;background:radial-gradient(ellipse,#184481a0,transparent 70%);pointer-events:none}
+.legacy-collection{min-width:0;display:block;overflow:hidden;border:1px solid #314563;border-radius:16px;background:linear-gradient(145deg,#17253a,#0b1727);transition:border-color .2s,transform .2s}
+.legacy-collection:hover{transform:translateY(-4px);border-color:#69a7f3;color:#fff}
+.legacy-collection-body{padding:17px 18px}
+.legacy-collection-body h3{margin:0 0 6px;font-size:17px;color:#fff}
+.legacy-collection-body p{font-size:13px;line-height:1.5;margin:0 0 15px;color:#a3b4cc}
+.legacy-collection-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px}
+.legacy-collection-bottom strong{color:#fff}
+.legacy-collection-bottom span{color:#70b3ff;font-size:11px;font-weight:850}
+.legacy-collection-image{height:auto;min-height:160px}
+.legacy-collection-image img{max-height:220px;object-fit:contain}
+.club-jersey-duo{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;height:100%}
+.club-jersey-duo img{max-width:43%;height:185px;object-fit:contain}
+.pricing-cards,.prices-grid,.price-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.price-card{border:1px solid #344963;background:#121f34;border-radius:14px;padding:22px}
+.price-card h3{font-size:13px;letter-spacing:.11em;margin-bottom:7px;color:#cbe0ff}
+.price-card .price{font-size:27px;color:white;font-weight:900;margin-bottom:8px}
+.price-card a{color:#72b2ff;font-weight:800;font-size:12px}
+.size-block{background:#0e1c30;border:1px solid #2c405d;border-radius:12px;padding:19px;margin:20px 0}
+@media(max-width:800px){.pricing-cards,.prices-grid,.price-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art .art-card.art-back{transform:rotate(-12deg) translateX(-72px)}.hero-art .art-card.art-side{transform:rotate(12deg) translateX(72px)}}
+@media(max-width:530px){.announcement{font-size:8px;padding:5px 14px}.announcement-right{display:none}.hero-stats{gap:12px}.hero-stats>div{flex-direction:column;align-items:start;gap:0}.hero-art .art-card.art-back{transform:rotate(-10deg) translateX(-56px)}.hero-art .art-card.art-side{transform:rotate(10deg) translateX(56px)}.pricing-cards,.prices-grid,.price-cards{grid-template-columns:1fr}}
+</style><style id="futnexo-v369-chandal-choice">
+.chandal-choice-intro{font-size:13px;font-weight:900;letter-spacing:.13em;color:#8fcaff;margin:28px 0 12px}
+.chandal-choice-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px!important;margin:0!important;overflow:visible!important;padding:0!important;width:100%}
+.chandal-choice-grid .chandal-choice-card{white-space:normal!important;display:flex!important;align-items:center;text-align:left;gap:16px;min-height:156px;padding:22px!important;border:2px solid #3d638d!important;border-radius:20px!important;background:linear-gradient(130deg,#15283e,#0a1628)!important;color:#fff!important;box-shadow:0 9px 25px rgba(0,0,0,.23);transition:transform .15s,border-color .15s,background .15s;min-width:0}
+.chandal-choice-grid .chandal-choice-card:hover{transform:translateY(-3px);border-color:#9fd8ff!important}
+.chandal-choice-grid .chandal-choice-card.active,.chandal-choice-grid .chandal-choice-card[aria-pressed="true"]{border-color:#55bbff!important;background:linear-gradient(125deg,#143c65,#10243c)!important;box-shadow:0 0 0 3px rgba(60,171,250,.17),0 12px 25px rgba(0,0,0,.25)}
+.chandal-choice-icon{flex:0 0 56px;width:56px;height:56px;border-radius:15px;display:grid;place-items:center;background:#22486d;color:#b7e7ff;font-size:34px;font-weight:900;line-height:1}
+.chandal-choice-content{display:flex;flex:1;flex-direction:column;gap:8px;min-width:0;opacity:1!important;margin:0!important}
+.chandal-choice-content strong{font:900 clamp(21px,2.3vw,29px)/1.1 'Barlow Condensed',Arial,sans-serif;letter-spacing:.02em;color:#fff}
+.chandal-choice-content small{font-size:13px;line-height:1.45;color:#d2e3f6;font-weight:500}
+.chandal-choice-content em{font-style:normal;font-size:13px;font-weight:800;color:#9be2ff}
+.chandal-choice-action{font-size:11px;font-weight:900;letter-spacing:.04em;color:#fff;background:#2676bc;padding:11px;border-radius:10px;opacity:1!important;margin:0!important;white-space:nowrap}
+.chandal-choice-help{font-size:13px;color:#b3cce7;margin:13px 0 30px;line-height:1.5}
+@media(max-width:900px){.chandal-choice-grid .chandal-choice-card{flex-wrap:wrap}.chandal-choice-action{width:100%;text-align:center}}
+@media(max-width:620px){.chandal-choice-grid{grid-template-columns:1fr!important;gap:12px!important}.chandal-choice-grid .chandal-choice-card{min-height:125px;padding:17px!important;flex-wrap:nowrap}.chandal-choice-icon{width:48px;height:48px;flex-basis:48px;font-size:27px}.chandal-choice-action{display:none}.chandal-choice-content strong{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.chandal-choice-grid .chandal-choice-card{transition:none}}
+</style>
+<style id="fn-unified-photo-backgrounds">
+/* Fondo visual uniforme con Clubes, Selecciones y Retro. No se eliminan ni sustituyen fotos. */
+.club-photo,.catalog-photo,.catalog-card .club-photo,.product-image,.selection-photo,.selection-image-link,.selection-image-frame{background:linear-gradient(145deg,#172942,#0f192b)!important}
+.club-photo img,.catalog-photo img,.product-image img,.selection-image-link img,.selection-image-frame img{background:transparent!important;box-shadow:none!important;border:0!important;object-fit:contain!important;mix-blend-mode:multiply}
+.club-photo,.catalog-photo,.product-image{overflow:hidden}
+</style><style id="fn-hide-old-category-packs">.fn-pack-overview,.fn-pack-builder,.fn-promo-strip,.fn-pack-line{display:none!important}</style></head><body>
+<div class="announcement"><span class="dot"></span> FUTNEXO · CAMISETAS DE FÚTBOL <span class="announcement-right">Tu fútbol, tu camiseta</span></div>
+<header class="site-header">
+<a aria-label="FutNexo, volver al inicio" class="brand" href="index.html#inicio"><span aria-hidden="true" class="brand-fn-icon">F<span>N</span></span><span aria-hidden="true" class="brand-wordmark">FUT<span class="brand-wordmark-blue">NEXO</span></span></a>
+<nav aria-label="Navegación principal" class="nav"><a href="index.html#inicio">Inicio</a><a href="clubes.html">Clubes</a><a href="selecciones.html">Selecciones</a><a href="retro.html">Retro</a><a aria-current="page" href="chandals.html">Chándals</a><a href="index.html#colecciones">Colecciones</a><a href="index.html#precios">Precios</a><a href="index.html#guia-tallas">Guía de tallas</a></nav>
+<a class="nav-cta" href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">Hablar por Instagram <span>↗</span></a>
+<button aria-controls="mobile-nav" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle" id="menu-toggle" type="button">☰</button>
+</header>
+<nav aria-label="Menú móvil" class="mobile-nav" id="mobile-nav"><a href="index.html#inicio">Inicio</a><a href="clubes.html">Clubes</a><a href="selecciones.html">Selecciones</a><a href="retro.html">Retro</a><a aria-current="page" href="chandals.html">Chándals</a><a href="index.html#colecciones">Colecciones</a><a href="index.html#precios">Precios</a><a href="index.html#guia-tallas">Guía de tallas</a><a href="https://www.instagram.com/fut_nexo_/">Instagram ↗</a></nav>
+<main>
+<section class="club-hero-wrap"><div class="container club-hero">
+<div class="club-hero-copy"><div class="breadcrumbs"><a href="index.html#inicio">Inicio</a><span>›</span><span>Chándals</span></div>
+<span class="club-kicker">DOS ESTILOS. EL MISMO ESCUDO.</span><h1>CHÁNDALS<br/><span>DE TU EQUIPO.</span></h1>
+<p>Encuentra tu conjunto entre 25 modelos de media cremallera y 17 de cremallera larga. Imágenes de los modelos, organizados por equipo y con opción de consultar tallas por Instagram.</p>
+<div class="club-hero-buttons"><a class="btn btn-primary" data-show-chandal-type="media" href="#media-cremallera">VER MEDIA CREMALLERA ↓</a><a class="btn btn-outline" data-show-chandal-type="entera" href="#media-cremallera">VER CREMALLERA LARGA ↓</a></div>
+<div class="club-hero-facts"><span><strong>42 modelos</strong> entre media cremallera y cremallera larga</span><i></i><span>Chándal <strong>desde 49,99 €</strong></span><i></i><span><strong>Tallas</strong> a consultar</span></div>
+</div><div class="club-hero-art"><div class="club-halo"></div><div class="club-hero-jersey jersey-left"><img alt="FC Barcelona — Media cremallera" decoding="async" loading="lazy" src="assets/catalogo/3fdbd744330954c731416e43.webp"/></div><div class="club-hero-jersey jersey-main"><img alt="España — Cremallera larga" decoding="async" loading="lazy" src="assets/catalogo/2c52f9343c1d1fd0dbcdd6bd.png"/></div><div class="club-hero-jersey jersey-right"><img alt="Real Madrid — Cremallera larga" decoding="async" loading="lazy" src="assets/catalogo/c444eca511fae9784bba24d3.png"/></div><span class="club-art-caption">FUTNEXO · 42 CONJUNTOS</span></div>
+</div></section>
+<section class="club-benefits"><div class="container club-benefits-inner"><span>✦ Clubes y selecciones</span><span>✦ Chándales de entrenamiento y paseo</span><span>✦ Adulto y niño: consultar</span><span>✦ Atención por Instagram</span></div></section>
+<section aria-label="Precios y descuentos de FutNexo" class="fn-promo-strip"><span class="fn-tag">Precios oficiales FutNexo</span><h2>Chándales y descuentos por cantidad</h2><div class="fn-deals"><div class="fn-deal"><b>Media cremallera</b><strong>49,99 €</strong></div><div class="fn-deal"><b>Cremallera larga</b><strong>58,99 €</strong></div></div><div class="fn-notes"><span>✓ 2 prendas elegibles: hasta 15 %</span><span>✓ 3–4: hasta 20 %</span><span>✓ 5–9: hasta 30 %</span><span>✓ 10 o más: hasta 35 %</span><span>✓ Envío gratis desde 2 prendas</span></div><p>Descuentos sujetos a validación por el servidor. Extras: nombre y dorsal +1,50 €; parche +1,50 € por prenda. <a href="pedido.html">Prepara tu pedido</a>.</p></section>
+<section aria-labelledby="media-title" class="container club-shop media-shop" id="media-cremallera">
+<div class="club-section-head"><div><span class="kicker">EXPLORA LA COLECCIÓN</span><h2 id="media-title">ELIGE TU TIPO DE CHÁNDAL</h2><p>Elige media cremallera o cremallera larga, utiliza los filtros de clubes y selecciones y consulta el conjunto que te interese. Todas las fotografías se muestran sobre fondo blanco.</p></div><a class="club-back" href="index.html#colecciones">← Volver a productos</a></div>
+<p class="chandal-choice-intro">PRIMERO, ELIGE EL TIPO DE CREMALLERA</p>
+<div aria-label="Elegir tipo de chándal" class="club-filters chandal-type-filters chandal-choice-grid" role="group">
+<button aria-pressed="true" class="club-filter chandal-type-button active chandal-choice-card" data-chandal-type="media" type="button"><span class="chandal-choice-icon" aria-hidden="true">◕</span><span class="chandal-choice-content"><strong>CREMALLERA CORTA</strong><small>Media cremallera · Apertura hasta el pecho</small><em>25 modelos · 49,99 €</em></span><span class="chandal-choice-action">VER MODELOS →</span></button>
+<button aria-pressed="false" class="club-filter chandal-type-button chandal-choice-card" data-chandal-type="entera" type="button"><span class="chandal-choice-icon" aria-hidden="true">↕</span><span class="chandal-choice-content"><strong>CREMALLERA LARGA</strong><small>Cremallera completa · Apertura de arriba abajo</small><em>17 modelos · 58,99 €</em></span><span class="chandal-choice-action">VER MODELOS →</span></button>
+</div>
+<p class="chandal-choice-help">Selecciona una de las dos opciones para ver sus conjuntos. Puedes cambiar de tipo en cualquier momento.</p>
+<div aria-label="Chándales de media cremallera" class="chandal-type-panel" id="chandal-media-panel" role="region">
+<div class="chandal-panel-heading"><h3>MEDIA CREMALLERA</h3><p>25 conjuntos de media cremallera. Cada equipo tiene su propio apartado, con las distintas variantes disponibles.</p></div>
+<div class="club-tools media-tools"><div aria-label="Filtrar media cremallera" class="club-filters" role="group"><button aria-pressed="true" class="club-filter media-filter active" data-media-filter="todos" type="button">Todos (25)</button><button aria-pressed="false" class="club-filter media-filter" data-media-filter="club" type="button">Clubes (20)</button><button aria-pressed="false" class="club-filter media-filter" data-media-filter="seleccion" type="button">Selecciones (5)</button></div>
+<label class="club-search"><span aria-hidden="true">⌕</span><input aria-label="Buscar equipo en media cremallera" autocomplete="off" id="media-search" placeholder="Buscar equipo o color..." type="search"/></label></div>
+<p aria-live="polite" class="club-count" id="media-count">25 modelos de media cremallera</p>
+<div id="media-team-list">
+<section class="media-team-section" data-media-team="Real Madrid">
+<h3 class="media-team-heading">Real Madrid <span>2 modelos</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Real Madrid, Blanco y verde" class="club-card media-card" data-fn-product-id="fn-0287" data-media-search="Real Madrid España Blanco y verde" data-media-type="club">
+<a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0287"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Media cremallera · Blanco y verde" decoding="async" loading="lazy" src="assets/catalogo/8168037559343fef76e91999.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0287"><h3>Real Madrid</h3></a><p>Club · Media cremallera · Blanco y verde</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Media cremallera · Blanco y verde" href="pedido.html?ref=fn-0287">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de Real Madrid, Verde oscuro" class="club-card media-card" data-fn-product-id="fn-0288" data-media-search="Real Madrid España Verde oscuro" data-media-type="club">
+<a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0288"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Media cremallera · Verde oscuro" decoding="async" loading="lazy" src="assets/catalogo/6bdfd047f8f94944e9e48b3a.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0288"><h3>Real Madrid</h3></a><p>Club · Media cremallera · Verde oscuro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Media cremallera · Verde oscuro" href="pedido.html?ref=fn-0288">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="FC Barcelona">
+<h3 class="media-team-heading">FC Barcelona <span>4 modelos</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de FC Barcelona, Azul marino" class="club-card media-card" data-fn-product-id="fn-0289" data-media-search="FC Barcelona España Azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0289"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Media cremallera · Azul marino" decoding="async" loading="lazy" src="assets/catalogo/ea0bf89f82c60fee239e5fc2.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0289"><h3>FC Barcelona</h3></a><p>Club · Media cremallera · Azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Media cremallera · Azul marino" href="pedido.html?ref=fn-0289">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de FC Barcelona, Turquesa" class="club-card media-card" data-fn-product-id="fn-0290" data-media-search="FC Barcelona España Turquesa" data-media-type="club">
+<a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0290"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Media cremallera · Turquesa" decoding="async" loading="lazy" src="assets/catalogo/3a404fc3b7c73097f7f29778.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0290"><h3>FC Barcelona</h3></a><p>Club · Media cremallera · Turquesa</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Media cremallera · Turquesa" href="pedido.html?ref=fn-0290">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de FC Barcelona, Granate y azul marino" class="club-card media-card" data-fn-product-id="fn-0291" data-media-search="FC Barcelona España Granate y azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0291"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Media cremallera · Granate y azul marino" decoding="async" loading="lazy" src="assets/catalogo/df87f823a3fec24102f7e706.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0291"><h3>FC Barcelona</h3></a><p>Club · Media cremallera · Granate y azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Media cremallera · Granate y azul marino" href="pedido.html?ref=fn-0291">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de FC Barcelona, Negro y azul" class="club-card media-card" data-fn-product-id="fn-0292" data-media-search="FC Barcelona España Negro azul" data-media-type="club">
+<a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0292"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Media cremallera · Negro y azul" decoding="async" loading="lazy" src="assets/catalogo/ff532a1498174ee4241b2b2a.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0292"><h3>FC Barcelona</h3></a><p>Club · Media cremallera · Negro y azul</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Media cremallera · Negro y azul" href="pedido.html?ref=fn-0292">Hacer pedido →</a></div></div></article></div>
+</section><section class="media-team-section" data-media-team="Arsenal">
+<h3 class="media-team-heading">Arsenal <span>3 modelos</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Arsenal, Granate y negro" class="club-card media-card" data-fn-product-id="fn-0293" data-media-search="Arsenal Inglaterra Granate y negro" data-media-type="club">
+<a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0293"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Media cremallera · Granate y negro" decoding="async" loading="lazy" src="assets/catalogo/888ff9dc809b3c8e0a923d26.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0293"><h3>Arsenal</h3></a><p>Club · Media cremallera · Granate y negro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Media cremallera · Granate y negro" href="pedido.html?ref=fn-0293">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de Arsenal, Azul con detalles multicolor" class="club-card media-card" data-fn-product-id="fn-0294" data-media-search="Arsenal Inglaterra Azul con detalles multicolor" data-media-type="club">
+<a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0294"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Media cremallera · Azul con detalles multicolor" decoding="async" loading="lazy" src="assets/catalogo/45a56d54fc62b987495b0f2f.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0294"><h3>Arsenal</h3></a><p>Club · Media cremallera · Azul con detalles multicolor</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Media cremallera · Azul con detalles multicolor" href="pedido.html?ref=fn-0294">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de Arsenal, Azul marino y rojo" class="club-card media-card" data-fn-product-id="fn-0295" data-media-search="Arsenal Inglaterra Azul marino y rojo" data-media-type="club">
+<a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0295"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Media cremallera · Azul marino y rojo" decoding="async" loading="lazy" src="assets/catalogo/7747e162123def5b5d8a51aa.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0295"><h3>Arsenal</h3></a><p>Club · Media cremallera · Azul marino y rojo</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Media cremallera · Azul marino y rojo" href="pedido.html?ref=fn-0295">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Chelsea"><h3 class="media-team-heading">Chelsea <span>1 modelo</span></h3><div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Chelsea, Azul y negro" class="club-card media-card" data-fn-product-id="fn-0296" data-media-search="Chelsea Inglaterra Azul y negro" data-media-type="club">
+<a aria-label="Hacer solicitud de Chelsea en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0296"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Chelsea · Club · Media cremallera · Azul y negro" decoding="async" loading="lazy" src="assets/catalogo/a547471cf0473425c5a53573.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0296"><h3>Chelsea</h3></a><p>Club · Media cremallera · Azul y negro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Chelsea Club · Media cremallera · Azul y negro" href="pedido.html?ref=fn-0296">Hacer pedido →</a></div></div></article></div></section><section class="media-team-section" data-media-team="Liverpool FC">
+<h3 class="media-team-heading">Liverpool FC <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Liverpool FC, Rojo y negro" class="club-card media-card" data-fn-product-id="fn-0297" data-media-search="Liverpool FC Inglaterra Rojo y negro" data-media-type="club">
+<a aria-label="Hacer solicitud de Liverpool FC en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0297"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Liverpool FC · Club · Media cremallera · Rojo y negro" decoding="async" loading="lazy" src="assets/catalogo/958de7aa73b176b54db125c6.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0297"><h3>Liverpool FC</h3></a><p>Club · Media cremallera · Rojo y negro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Liverpool FC Club · Media cremallera · Rojo y negro" href="pedido.html?ref=fn-0297">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Manchester United">
+<h3 class="media-team-heading">Manchester United <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Manchester United, Rojo y negro" class="club-card media-card" data-fn-product-id="fn-0298" data-media-search="Manchester United Inglaterra Rojo y negro" data-media-type="club">
+<a aria-label="Hacer solicitud de Manchester United en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0298"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Manchester United · Club · Media cremallera · Rojo y negro" decoding="async" loading="lazy" src="assets/catalogo/47cd4373c75ff9f9389b3363.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0298"><h3>Manchester United</h3></a><p>Club · Media cremallera · Rojo y negro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Manchester United Club · Media cremallera · Rojo y negro" href="pedido.html?ref=fn-0298">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Tottenham Hotspur">
+<h3 class="media-team-heading">Tottenham Hotspur <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Tottenham Hotspur, Azul marino" class="club-card media-card" data-fn-product-id="fn-0299" data-media-search="Tottenham Hotspur Inglaterra Azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de Tottenham Hotspur en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0299"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Tottenham Hotspur · Club · Media cremallera · Azul marino" decoding="async" loading="lazy" src="assets/catalogo/81ceb01d7b99449f483ce8e6.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0299"><h3>Tottenham Hotspur</h3></a><p>Club · Media cremallera · Azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Tottenham Hotspur Club · Media cremallera · Azul marino" href="pedido.html?ref=fn-0299">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Inter de Milán"><h3 class="media-team-heading">Inter de Milán <span>1 modelo</span></h3><div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Inter de Milán, Azul marino" class="club-card media-card" data-fn-product-id="fn-0300" data-media-search="Inter de Milán Italia Azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de Inter de Milán en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0300"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Inter de Milán · Club · Media cremallera · Azul marino" decoding="async" loading="lazy" src="assets/catalogo/4eadd17760ad77b86529b6ec.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0300"><h3>Inter de Milán</h3></a><p>Club · Media cremallera · Azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Inter de Milán Club · Media cremallera · Azul marino" href="pedido.html?ref=fn-0300">Hacer pedido →</a></div></div></article></div></section><section class="media-team-section" data-media-team="AC Milan">
+<h3 class="media-team-heading">AC Milan <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de AC Milan, Negro y rojo" class="club-card media-card" data-fn-product-id="fn-0301" data-media-search="AC Milan Italia Negro y rojo" data-media-type="club">
+<a aria-label="Hacer solicitud de AC Milan en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0301"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de AC Milan · Club · Media cremallera · Negro y rojo" decoding="async" loading="lazy" src="assets/catalogo/96e969ae9f61a5a70fc541a0.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0301"><h3>AC Milan</h3></a><p>Club · Media cremallera · Negro y rojo</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de AC Milan Club · Media cremallera · Negro y rojo" href="pedido.html?ref=fn-0301">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Paris Saint-Germain">
+<h3 class="media-team-heading">Paris Saint-Germain <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Paris Saint-Germain, Blanco y azul marino" class="club-card media-card" data-fn-product-id="fn-0302" data-media-search="Paris Saint-Germain Francia Blanco y azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de Paris Saint-Germain en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0302"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Paris Saint-Germain · Club · Media cremallera · Blanco y azul marino" decoding="async" loading="lazy" src="assets/catalogo/4c936ca37e46c287d8a33e60.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0302"><h3>Paris Saint-Germain</h3></a><p>Club · Media cremallera · Blanco y azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Paris Saint-Germain Club · Media cremallera · Blanco y azul marino" href="pedido.html?ref=fn-0302">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Olympique de Marsella">
+<h3 class="media-team-heading">Olympique de Marsella <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Olympique de Marsella, Azul marino" class="club-card media-card" data-fn-product-id="fn-0303" data-media-search="Olympique de Marsella Francia Azul marino" data-media-type="club">
+<a aria-label="Hacer solicitud de Olympique de Marsella en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0303"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Olympique de Marsella · Club · Media cremallera · Azul marino" decoding="async" loading="lazy" src="assets/catalogo/d8fc490959f9ddef00b7043c.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0303"><h3>Olympique de Marsella</h3></a><p>Club · Media cremallera · Azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Olympique de Marsella Club · Media cremallera · Azul marino" href="pedido.html?ref=fn-0303">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Olympique Lyonnais">
+<h3 class="media-team-heading">Olympique Lyonnais <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Olympique Lyonnais, Azul marino y rojo" class="club-card media-card" data-fn-product-id="fn-0304" data-media-search="Olympique Lyonnais Francia Azul marino y rojo" data-media-type="club">
+<a aria-label="Hacer solicitud de Olympique Lyonnais en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0304"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Olympique Lyonnais · Club · Media cremallera · Azul marino y rojo" decoding="async" loading="lazy" src="assets/catalogo/b4bdbb29427e711ca12b1a93.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0304"><h3>Olympique Lyonnais</h3></a><p>Club · Media cremallera · Azul marino y rojo</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Olympique Lyonnais Club · Media cremallera · Azul marino y rojo" href="pedido.html?ref=fn-0304">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Feyenoord">
+<h3 class="media-team-heading">Feyenoord <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Feyenoord, Negro y verde" class="club-card media-card" data-fn-product-id="fn-0305" data-media-search="Feyenoord Países Bajos Negro y verde" data-media-type="club">
+<a aria-label="Hacer solicitud de Feyenoord en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0305"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Feyenoord · Club · Media cremallera · Negro y verde" decoding="async" loading="lazy" src="assets/catalogo/3b3cc093bb40387f8d1e242a.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0305"><h3>Feyenoord</h3></a><p>Club · Media cremallera · Negro y verde</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Feyenoord Club · Media cremallera · Negro y verde" href="pedido.html?ref=fn-0305">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Inter Miami"><h3 class="media-team-heading">Inter Miami <span>1 modelo</span></h3><div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Inter Miami, Rosa y negro" class="club-card media-card" data-fn-product-id="fn-0306" data-media-search="Inter Miami Estados Unidos Rosa y negro" data-media-type="club">
+<a aria-label="Hacer solicitud de Inter Miami en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0306"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Inter Miami · Club · Media cremallera · Rosa y negro" decoding="async" loading="lazy" src="assets/catalogo/8de834abe8dc484ac3c7b9eb.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0306"><h3>Inter Miami</h3></a><p>Club · Media cremallera · Rosa y negro</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Inter Miami Club · Media cremallera · Rosa y negro" href="pedido.html?ref=fn-0306">Hacer pedido →</a></div></div></article></div></section><section class="media-team-section" data-media-team="España">
+<h3 class="media-team-heading">España <span>2 modelos</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de España, Rojo y azul marino" class="club-card media-card" data-fn-product-id="fn-0307" data-media-search="España Selección Rojo y azul marino" data-media-type="seleccion">
+<a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0307"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de España · Selección · Media cremallera · Rojo y azul marino" decoding="async" loading="lazy" src="assets/catalogo/aa753d96c24b2f975f76d34a.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0307"><h3>España</h3></a><p>Selección · Media cremallera · Rojo y azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de España Selección · Media cremallera · Rojo y azul marino" href="pedido.html?ref=fn-0307">Hacer pedido →</a></div></div>
+</article><article aria-label="Conjunto media cremallera de España, Azul y azul marino" class="club-card media-card" data-fn-product-id="fn-0308" data-media-search="España Selección Azul y azul marino" data-media-type="seleccion">
+<a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0308"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de España · Selección · Media cremallera · Azul y azul marino" decoding="async" loading="lazy" src="assets/catalogo/66ac7832dd46e8788fc5c0b5.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0308"><h3>España</h3></a><p>Selección · Media cremallera · Azul y azul marino</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de España Selección · Media cremallera · Azul y azul marino" href="pedido.html?ref=fn-0308">Hacer pedido →</a></div></div>
+</article></div>
+</section><section class="media-team-section" data-media-team="Brasil"><h3 class="media-team-heading">Brasil <span>2 modelos</span></h3><div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Brasil, Verde oscuro y amarillo" class="club-card media-card" data-fn-product-id="fn-0309" data-media-search="Brasil Sudamérica Verde oscuro amarillo" data-media-type="seleccion">
+<a aria-label="Hacer solicitud de Brasil en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0309"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Brasil · Selección · Media cremallera · Verde oscuro y amarillo" decoding="async" loading="lazy" src="assets/catalogo/f1fc8a919dbb8d69d57acb9d.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0309"><h3>Brasil</h3></a><p>Selección · Media cremallera · Verde oscuro y amarillo</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Brasil Selección · Media cremallera · Verde oscuro y amarillo" href="pedido.html?ref=fn-0309">Hacer pedido →</a></div></div></article><article aria-label="Conjunto media cremallera de Brasil, Negro y naranja" class="club-card media-card" data-fn-product-id="fn-0310" data-media-search="Brasil Sudamérica Negro naranja" data-media-type="seleccion">
+<a aria-label="Hacer solicitud de Brasil en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0310"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Brasil · Selección · Media cremallera · Negro y naranja" decoding="async" loading="lazy" src="assets/catalogo/7adb57215b099c11847d3f85.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0310"><h3>Brasil</h3></a><p>Selección · Media cremallera · Negro y naranja</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Brasil Selección · Media cremallera · Negro y naranja" href="pedido.html?ref=fn-0310">Hacer pedido →</a></div></div></article></div></section><section class="media-team-section" data-media-team="Portugal">
+<h3 class="media-team-heading">Portugal <span>1 modelo</span></h3>
+<div class="club-grid media-team-grid"><article aria-label="Conjunto media cremallera de Portugal, Blanco y verde" class="club-card media-card" data-fn-product-id="fn-0311" data-media-search="Portugal Selección Blanco y verde" data-media-type="seleccion">
+<a aria-label="Hacer solicitud de Portugal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0311"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Portugal · Selección · Media cremallera · Blanco y verde" decoding="async" loading="lazy" src="assets/catalogo/6f19365bfd3e3e2b2ab2f1c4.webp"/></div></div></a>
+<div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0311"><h3>Portugal</h3></a><p>Selección · Media cremallera · Blanco y verde</p><div class="club-bottom"><strong>49,99 €</strong><a aria-label="Configurar solicitud de Portugal Selección · Media cremallera · Blanco y verde" href="pedido.html?ref=fn-0311">Hacer pedido →</a></div></div>
+</article></div>
+</section></div>
+<p class="club-none" hidden="" id="media-none">No encontramos modelos con esos filtros. Prueba con otro equipo o color.</p>
+<p class="club-disclaimer">Imágenes facilitadas para el catálogo FutNexo. Precio por conjunto: 49,99 €. Confirma la disponibilidad, talla, autenticidad y gastos de envío antes de hacer tu pedido por Instagram.</p>
+</div>
+<div aria-label="Chándales de cremallera larga" class="chandal-type-panel" hidden="" id="chandal-entera-panel" role="region"><div class="chandal-panel-heading"><h3>CREMALLERA LARGA</h3><p>17 conjuntos de cremallera larga. Modelos agrupados por club o selección, con fotografías encuadradas sobre fondo blanco.</p></div><div class="club-tools entera-tools"><div aria-label="Filtrar cremallera larga" class="club-filters" role="group"><button aria-pressed="true" class="club-filter entera-filter active" data-entera-filter="todos" type="button">Todos (17)</button><button aria-pressed="false" class="club-filter entera-filter" data-entera-filter="club" type="button">Clubes (11)</button><button aria-pressed="false" class="club-filter entera-filter" data-entera-filter="seleccion" type="button">Selecciones (6)</button></div><label class="club-search"><span aria-hidden="true">⌕</span><input aria-label="Buscar equipo en cremallera larga" autocomplete="off" id="entera-search" placeholder="Buscar equipo o color..." type="search"/></label></div><p aria-live="polite" class="club-count" id="entera-count">17 modelos de cremallera larga</p><div id="entera-team-list"><section class="entera-team-section" data-entera-team="Real Madrid"><h3 class="entera-team-heading">Real Madrid<span>4 modelos</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Real Madrid, Blanco y verde" class="club-card entera-card" data-entera-search="Real Madrid España Blanco y verde" data-entera-type="club" data-fn-product-id="fn-0312"><a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0312"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Cremallera larga · Blanco y verde" decoding="async" loading="lazy" src="assets/catalogo/0ff0c73f82caace1eed01728.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0312"><h3>Real Madrid</h3></a><p>Club · Cremallera larga · Blanco y verde</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Cremallera larga · Blanco y verde" href="pedido.html?ref=fn-0312">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Real Madrid, Verde oscuro y rosa" class="club-card entera-card" data-entera-search="Real Madrid España Verde oscuro y rosa" data-entera-type="club" data-fn-product-id="fn-0313"><a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0313"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Cremallera larga · Verde oscuro y rosa" decoding="async" loading="lazy" src="assets/catalogo/1b8520827bbd309b9fb8bce1.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0313"><h3>Real Madrid</h3></a><p>Club · Cremallera larga · Verde oscuro y rosa</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Cremallera larga · Verde oscuro y rosa" href="pedido.html?ref=fn-0313">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Real Madrid, Blanco, negro y gris" class="club-card entera-card" data-entera-search="Real Madrid España Blanco, negro y gris" data-entera-type="club" data-fn-product-id="fn-0314"><a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0314"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Cremallera larga · Blanco, negro y gris" decoding="async" loading="lazy" src="assets/catalogo/251001b7c3e7c96e23f74d5e.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0314"><h3>Real Madrid</h3></a><p>Club · Cremallera larga · Blanco, negro y gris</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Cremallera larga · Blanco, negro y gris" href="pedido.html?ref=fn-0314">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Real Madrid, Blanco y azul" class="club-card entera-card" data-entera-search="Real Madrid España Blanco y azul" data-entera-type="club" data-fn-product-id="fn-0315"><a aria-label="Hacer solicitud de Real Madrid en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0315"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Madrid · Club · Cremallera larga · Blanco y azul" decoding="async" loading="lazy" src="assets/catalogo/bf1dcd741eca8c8084eaaf01.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0315"><h3>Real Madrid</h3></a><p>Club · Cremallera larga · Blanco y azul</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Real Madrid Club · Cremallera larga · Blanco y azul" href="pedido.html?ref=fn-0315">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="FC Barcelona"><h3 class="entera-team-heading">FC Barcelona<span>2 modelos</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de FC Barcelona, Turquesa y azul marino" class="club-card entera-card" data-entera-search="FC Barcelona España Turquesa y azul marino" data-entera-type="club" data-fn-product-id="fn-0316"><a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0316"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Cremallera larga · Turquesa y azul marino" decoding="async" loading="lazy" src="assets/catalogo/c83e3e57f53e829527bd2286.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0316"><h3>FC Barcelona</h3></a><p>Club · Cremallera larga · Turquesa y azul marino</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Cremallera larga · Turquesa y azul marino" href="pedido.html?ref=fn-0316">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de FC Barcelona, Azul marino y granate" class="club-card entera-card" data-entera-search="FC Barcelona España Azul marino y granate" data-entera-type="club" data-fn-product-id="fn-0317"><a aria-label="Hacer solicitud de FC Barcelona en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0317"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de FC Barcelona · Club · Cremallera larga · Azul marino y granate" decoding="async" loading="lazy" src="assets/catalogo/0004ef91166930d472f4b877.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0317"><h3>FC Barcelona</h3></a><p>Club · Cremallera larga · Azul marino y granate</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de FC Barcelona Club · Cremallera larga · Azul marino y granate" href="pedido.html?ref=fn-0317">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="Arsenal"><h3 class="entera-team-heading">Arsenal<span>3 modelos</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Arsenal, Rojo y negro" class="club-card entera-card" data-entera-search="Arsenal Inglaterra Rojo y negro" data-entera-type="club" data-fn-product-id="fn-0318"><a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0318"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Cremallera larga · Rojo y negro" decoding="async" loading="lazy" src="assets/catalogo/22bbcd270886a9234b153594.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0318"><h3>Arsenal</h3></a><p>Club · Cremallera larga · Rojo y negro</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Cremallera larga · Rojo y negro" href="pedido.html?ref=fn-0318">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Arsenal, Negro con detalles verdes y rojos" class="club-card entera-card" data-entera-search="Arsenal Inglaterra Negro con detalles verdes y rojos" data-entera-type="club" data-fn-product-id="fn-0319"><a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0319"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Cremallera larga · Negro con detalles verdes y rojos" decoding="async" loading="lazy" src="assets/catalogo/25e208c60d4c16ce5503817f.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0319"><h3>Arsenal</h3></a><p>Club · Cremallera larga · Negro con detalles verdes y rojos</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Cremallera larga · Negro con detalles verdes y rojos" href="pedido.html?ref=fn-0319">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Arsenal, Azul marino y celeste" class="club-card entera-card" data-entera-search="Arsenal Inglaterra Azul marino y celeste" data-entera-type="club" data-fn-product-id="fn-0320"><a aria-label="Hacer solicitud de Arsenal en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0320"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Arsenal · Club · Cremallera larga · Azul marino y celeste" decoding="async" loading="lazy" src="assets/catalogo/f389018b8e52260690f0d37b.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0320"><h3>Arsenal</h3></a><p>Club · Cremallera larga · Azul marino y celeste</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Arsenal Club · Cremallera larga · Azul marino y celeste" href="pedido.html?ref=fn-0320">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="Tottenham Hotspur"><h3 class="entera-team-heading">Tottenham Hotspur<span>1 modelo</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Tottenham Hotspur, Violeta y negro" class="club-card entera-card" data-entera-search="Tottenham Hotspur Inglaterra Violeta y negro" data-entera-type="club" data-fn-product-id="fn-0321"><a aria-label="Hacer solicitud de Tottenham Hotspur en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0321"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Tottenham Hotspur · Club · Cremallera larga · Violeta y negro" decoding="async" loading="lazy" src="assets/catalogo/8e41dfdc55941b1a8a49d116.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0321"><h3>Tottenham Hotspur</h3></a><p>Club · Cremallera larga · Violeta y negro</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Tottenham Hotspur Club · Cremallera larga · Violeta y negro" href="pedido.html?ref=fn-0321">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="Real Betis"><h3 class="entera-team-heading">Real Betis<span>1 modelo</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Real Betis, Negro y blanco" class="club-card entera-card" data-entera-search="Real Betis España Negro y blanco" data-entera-type="club" data-fn-product-id="fn-0322"><a aria-label="Hacer solicitud de Real Betis en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0322"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Real Betis · Club · Cremallera larga · Negro y blanco" decoding="async" loading="lazy" src="assets/catalogo/966dbac25cb0596393a38b76.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0322"><h3>Real Betis</h3></a><p>Club · Cremallera larga · Negro y blanco</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Real Betis Club · Cremallera larga · Negro y blanco" href="pedido.html?ref=fn-0322">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="España"><h3 class="entera-team-heading">España<span>3 modelos</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de España, Rojo y azul marino" class="club-card entera-card" data-entera-search="España España Rojo y azul marino" data-entera-type="seleccion" data-fn-product-id="fn-0323"><a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0323"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de España · Selección · Cremallera larga · Rojo y azul marino" decoding="async" loading="lazy" src="assets/catalogo/e846477b4da2f50aee9a6105.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0323"><h3>España</h3></a><p>Selección · Cremallera larga · Rojo y azul marino</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de España Selección · Cremallera larga · Rojo y azul marino" href="pedido.html?ref=fn-0323">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de España, Crema y rojo" class="club-card entera-card" data-entera-search="España España Crema y rojo" data-entera-type="seleccion" data-fn-product-id="fn-0324"><a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0324"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de España · Selección · Cremallera larga · Crema y rojo" decoding="async" loading="lazy" src="assets/catalogo/1bf24bf2574c563dd50060fb.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0324"><h3>España</h3></a><p>Selección · Cremallera larga · Crema y rojo</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de España Selección · Cremallera larga · Crema y rojo" href="pedido.html?ref=fn-0324">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de España, Azul marino y celeste" class="club-card entera-card" data-entera-search="España España Azul marino y celeste" data-entera-type="seleccion" data-fn-product-id="fn-0325"><a aria-label="Hacer solicitud de España en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0325"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de España · Selección · Cremallera larga · Azul marino y celeste" decoding="async" loading="lazy" src="assets/catalogo/a7c4e8c3026edd58fe3df234.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0325"><h3>España</h3></a><p>Selección · Cremallera larga · Azul marino y celeste</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de España Selección · Cremallera larga · Azul marino y celeste" href="pedido.html?ref=fn-0325">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="Brasil"><h3 class="entera-team-heading">Brasil<span>2 modelos</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Brasil, Negro y crema" class="club-card entera-card" data-entera-search="Brasil Brasil Negro y crema" data-entera-type="seleccion" data-fn-product-id="fn-0326"><a aria-label="Hacer solicitud de Brasil en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0326"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Brasil · Selección · Cremallera larga · Negro y crema" decoding="async" loading="lazy" src="assets/catalogo/b325636dc502a25107a99865.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0326"><h3>Brasil</h3></a><p>Selección · Cremallera larga · Negro y crema</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Brasil Selección · Cremallera larga · Negro y crema" href="pedido.html?ref=fn-0326">Hacer pedido →</a></div></div></article><article aria-label="Conjunto de cremallera larga de Brasil, Amarillo y negro" class="club-card entera-card" data-entera-search="Brasil Brasil Amarillo y negro" data-entera-type="seleccion" data-fn-product-id="fn-0327"><a aria-label="Hacer solicitud de Brasil en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0327"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Brasil · Selección · Cremallera larga · Amarillo y negro" decoding="async" loading="lazy" src="assets/catalogo/b4709288334a1cc86e629fab.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0327"><h3>Brasil</h3></a><p>Selección · Cremallera larga · Amarillo y negro</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Brasil Selección · Cremallera larga · Amarillo y negro" href="pedido.html?ref=fn-0327">Hacer pedido →</a></div></div></article></div></section><section class="entera-team-section" data-entera-team="Argentina"><h3 class="entera-team-heading">Argentina<span>1 modelo</span></h3><div class="club-grid entera-team-grid"><article aria-label="Conjunto de cremallera larga de Argentina, Azul marino y celeste" class="club-card entera-card" data-entera-search="Argentina Argentina Azul marino y celeste" data-entera-type="seleccion" data-fn-product-id="fn-0328"><a aria-label="Hacer solicitud de Argentina en FutNexo" class="fn-product-image-link" href="pedido.html?ref=fn-0328"><div class="club-photo selection-photo"><div class="selection-image-frame"><img alt="Fotografía de Argentina · Selección · Cremallera larga · Azul marino y celeste" decoding="async" loading="lazy" src="assets/catalogo/2b80a69206f87ceb70154f19.webp"/></div></div></a><div class="club-card-body"><a class="fn-product-title-link" href="pedido.html?ref=fn-0328"><h3>Argentina</h3></a><p>Selección · Cremallera larga · Azul marino y celeste</p><div class="club-bottom"><strong>58,99 €</strong><a aria-label="Configurar solicitud de Argentina Selección · Cremallera larga · Azul marino y celeste" href="pedido.html?ref=fn-0328">Hacer pedido →</a></div></div></article></div></section></div><p class="club-none" hidden="" id="entera-none">No encontramos modelos con esos filtros. Prueba con otro equipo o color.</p><p class="club-disclaimer">Imágenes facilitadas para el catálogo FutNexo. Precios: media cremallera 49,99 € y cremallera larga 58,99 €. Confirma la disponibilidad, talla, autenticidad y colores por Instagram antes de cerrar el pedido.</p></div>
+</section>
+<section class="container club-request"><div class="club-request-text"><span class="kicker">¿BUSCAS OTRO MODELO?</span><h2>LO CONSULTAMOS CONTIGO.</h2><p>Cuéntanos qué club, temporada, talla y tipo de chándal necesitas. Te indicaremos las opciones que podamos conseguir.</p></div>
+<a class="btn btn-primary" href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">PREGUNTAR POR INSTAGRAM ↗</a></section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a aria-label="FutNexo, volver al inicio" class="brand" href="index.html#inicio"><span aria-hidden="true" class="brand-wordmark">FUT<span class="brand-wordmark-blue">NEXO</span></span></a><p>FutNexo · Tu fútbol, tu camiseta.<br/>Consulta la disponibilidad y las características antes de comprar.</p><div><a href="https://www.instagram.com/fut_nexo_/" rel="noopener noreferrer" target="_blank">Instagram ↗</a><a href="index.html#guia-tallas">Guía de tallas ↗</a></div></div><div class="container legal-note">Antes de comercializar artículos de marca, verificar procedencia, autenticidad y derechos de distribución. Completar la información legal y fiscal correspondiente.</div></footer>
+<script>(()=>{'use strict';
+const menu=document.getElementById('menu-toggle'),mobile=document.getElementById('mobile-nav');
+if(menu&&mobile){menu.addEventListener('click',()=>{const open=mobile.classList.toggle('open');menu.textContent=open?'×':'☰';menu.setAttribute('aria-expanded',String(open))});mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobile.classList.remove('open');menu.textContent='☰';menu.setAttribute('aria-expanded','false')}));}
+})();</script>
+<script id="futnexo-v344-media-js">(()=>{'use strict';
+ const normalize=(s)=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ const groups=[...document.querySelectorAll('.media-team-section')];
+ const buttons=[...document.querySelectorAll('.media-filter')];
+ const search=document.querySelector('#media-search'),count=document.querySelector('#media-count'),none=document.querySelector('#media-none');
+ let type='todos';
+ const update=()=>{let total=0;const q=normalize(search.value.trim());
+  for(const group of groups){let n=0;for(const card of group.querySelectorAll('.media-card')){
+    const ok=(type==='todos'||card.dataset.mediaType===type)&&normalize(card.dataset.mediaSearch).includes(q);
+    card.hidden=!ok;if(ok){n++;total++}
+  }group.hidden=n===0;const pill=group.querySelector('.media-team-heading span');if(pill)pill.textContent=n+' '+(n===1?'modelo':'modelos');}
+  count.textContent=total+' '+(total===1?'modelo':'modelos')+' de media cremallera';none.hidden=total!==0;
+ };
+ buttons.forEach(btn=>btn.addEventListener('click',()=>{type=btn.dataset.mediaFilter;for(const b of buttons){const active=b===btn;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}update()}));
+ search.addEventListener('input',update);update();
+})();</script>
+<script>(()=>{'use strict';
+ const normalize=(s)=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+ const groups=[...document.querySelectorAll('.entera-team-section')];
+ const buttons=[...document.querySelectorAll('.entera-filter')];
+ const search=document.querySelector('#entera-search'),count=document.querySelector('#entera-count'),none=document.querySelector('#entera-none');
+ if(!groups.length||!buttons.length||!search||!count||!none)return;
+ let type='todos';
+ const update=()=>{let total=0;const q=normalize(search.value.trim());
+  for(const group of groups){let n=0;for(const card of group.querySelectorAll('.entera-card')){
+    const ok=(type==='todos'||card.dataset.enteraType===type)&&normalize(card.dataset.enteraSearch).includes(q);
+    card.hidden=!ok;if(ok){n++;total++;}
+  }group.hidden=n===0;const pill=group.querySelector('.entera-team-heading span');if(pill)pill.textContent=n+' '+(n===1?'modelo':'modelos');}
+  count.textContent=total+' '+(total===1?'modelo':'modelos')+' de cremallera larga';none.hidden=total!==0;
+ };
+ buttons.forEach(btn=>btn.addEventListener('click',()=>{type=btn.dataset.enteraFilter;for(const b of buttons){const active=b===btn;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}update()}));
+ search.addEventListener('input',update);update();
+})();</script><script id="futnexo-v346-chandal-types-js">(()=>{'use strict';
+const buttons=[...document.querySelectorAll('[data-chandal-type]')];
+const panels={media:document.getElementById('chandal-media-panel'),entera:document.getElementById('chandal-entera-panel')};
+function switchType(type){if(!panels[type])return;for(const button of buttons){const on=button.dataset.chandalType===type;button.classList.toggle('active',on);button.setAttribute('aria-pressed',String(on));}for(const [key,panel] of Object.entries(panels)){panel.hidden=key!==type;}}
+for(const button of buttons){button.addEventListener('click',()=>switchType(button.dataset.chandalType));}
+switchType('media');
+})();</script>
+<script>(()=>{'use strict';
+const tabButtons=[...document.querySelectorAll('.chandal-type-button')];
+for(const link of document.querySelectorAll('[data-show-chandal-type]')){
+  link.addEventListener('click',()=>{
+    const btn=tabButtons.find(b=>b.dataset.chandalType===link.dataset.showChandalType);
+    if(btn)btn.click();
+  });
+}
+})();</script><script src="catalogo-pedidos.js?v=367"></script><script src="carrito-catalogo.js?v=371"></script></body></html>
